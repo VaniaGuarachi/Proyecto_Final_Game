@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 37249a377b0089d48994426273c8d067
+  productGUID: 2b4dcc6f10fe1364aa569f4f5bddbb85
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Proyecto_Final
+  productName: PROYECTO_GAME_FINAL
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -696,14 +696,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Proyecto_Final
+  metroPackageName: PROYECTO_GAME_FINAL
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Proyecto_Final
+  metroApplicationDescription: PROYECTO_GAME_FINAL
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -774,10 +774,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 5dad3169-2db5-4dcd-8c7a-cf180dda2280
+  cloudProjectId: 8388ab1c-8815-4961-9a3b-8bc4969ee834
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Proyecto_Final
+  projectName: PROYECTO_GAME_FINAL
   organizationId: vania_g95
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
