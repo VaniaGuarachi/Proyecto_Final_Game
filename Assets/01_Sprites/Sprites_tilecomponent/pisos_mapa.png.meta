@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 1e3ce7813427a79428f48780b7961004
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pisos_mapa_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 923
+        width: 261
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eee4928ac3880e46a55cebb006dacf1
+      internalID: 1471262046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 928
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a9f2a2b64da5043b01c3065ca5b613
+      internalID: 763886135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 921
+        width: 134
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2416caa4fa29a914fa6ef9d9660b4112
+      internalID: 1065342880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 805
+        width: 258
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa165d9c1e78c1743916ef3a90a9fc47
+      internalID: -1844142867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 938
+        width: 260
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98057d73a2e759041b2a81b77863a889
+      internalID: 1013501949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 937
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d4a08ca44d41409032500cac0a94a
+      internalID: 176407114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 923
+        width: 133
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cf06eeabd502a4ebdfb7f3f1f9e9f9
+      internalID: -1020844969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_7
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 810
+        width: 257
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c26b933d6d00b84dba2eaca701659ae
+      internalID: -1297909242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 818
+        width: 212
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba0083bc3e4fd240bb99713680733e3
+      internalID: 1743664594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 817
+        width: 122
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c50f0e52c52e458f9459f49b53895
+      internalID: -1630690045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 701
+        width: 109
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ce6860f4cba304689d7c27a921679f
+      internalID: 156306024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_11
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 824
+        width: 211
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76136387a4d31ea468ebfcaa64180fb5
+      internalID: -433863111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_12
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 818
+        width: 121
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdea800d4dd30a43a5a58fb7deb4ae8
+      internalID: -345909945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_13
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 706
+        width: 107
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54a44156251d5c42a8c6bbb17bfdb9b
+      internalID: -1634081814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 583
+        width: 302
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467380496acd3124da999622585c8efd
+      internalID: -2071506818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 656
+        width: 352
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9253ac7352d4f4d9f4fc75c4a19ced
+      internalID: 1256047044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_16
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 585
+        width: 301
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c98e16eed6874f870177a3ae1f742
+      internalID: 712846547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_17
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 661
+        width: 351
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2519e1d9ff3a24890d1eec838e1cab
+      internalID: -1638153729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_18
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 414
+        width: 261
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9321e355f2449d649b62c245396af31f
+      internalID: -1125725652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 414
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff20293a94efd44aca80f6907bd48c
+      internalID: 1440353923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_20
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 399
+        width: 133
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c3e534301db9f44bfebcb43ea0f090
+      internalID: 1394070900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_21
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 292
+        width: 258
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e857c88e4322c1141a2b739e84428805
+      internalID: 117408183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_22
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 414
+        width: 260
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dabd1cb38c5974da915a8f61b45313
+      internalID: -255009917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_23
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 415
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb35cf56e2d62f646b1728833056718f
+      internalID: 1999850949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_24
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 400
+        width: 133
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81e279daf23fc14c9e9ced1a98bec73
+      internalID: 114204863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_25
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 292
+        width: 257
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c160e21ceabea2438da6207cf1e6fd3
+      internalID: 10424527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 304
+        width: 212
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3c874b19527e8438c5816f71d499e1
+      internalID: -1910637095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_27
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 304
+        width: 121
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cea8b82572ed3419113103ea349795
+      internalID: 1868669318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_28
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 192
+        width: 108
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d277da51d771f419a044cb1ab8f154
+      internalID: 459137789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_29
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 305
+        width: 211
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5863af94a6b92848b7d42697725051f
+      internalID: -1364050643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_30
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 304
+        width: 121
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d441a4233ddb7724ca3bf11b2e1cb12f
+      internalID: -1765404508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_31
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 192
+        width: 107
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f12e54b18ecd4b959ea5b4d9b1611
+      internalID: -865421735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 64
+        width: 302
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701023a67f45b084c86f404704311b49
+      internalID: -1836950864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 145
+        width: 352
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fef0b1af0d0e8540af75366eb73ea52
+      internalID: 974521289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_34
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 64
+        width: 301
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8d922972022d040acd2f19e4df5246
+      internalID: 1425497799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pisos_mapa_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 146
+        width: 352
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec0adfe0dbbd904090fbb9a2ebce86b
+      internalID: -915277962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pisos_mapa_0: 1471262046
+      pisos_mapa_1: 763886135
+      pisos_mapa_10: 156306024
+      pisos_mapa_11: -433863111
+      pisos_mapa_12: -345909945
+      pisos_mapa_13: -1634081814
+      pisos_mapa_14: -2071506818
+      pisos_mapa_15: 1256047044
+      pisos_mapa_16: 712846547
+      pisos_mapa_17: -1638153729
+      pisos_mapa_18: -1125725652
+      pisos_mapa_19: 1440353923
+      pisos_mapa_2: 1065342880
+      pisos_mapa_20: 1394070900
+      pisos_mapa_21: 117408183
+      pisos_mapa_22: -255009917
+      pisos_mapa_23: 1999850949
+      pisos_mapa_24: 114204863
+      pisos_mapa_25: 10424527
+      pisos_mapa_26: -1910637095
+      pisos_mapa_27: 1868669318
+      pisos_mapa_28: 459137789
+      pisos_mapa_29: -1364050643
+      pisos_mapa_3: -1844142867
+      pisos_mapa_30: -1765404508
+      pisos_mapa_31: -865421735
+      pisos_mapa_32: -1836950864
+      pisos_mapa_33: 974521289
+      pisos_mapa_34: 1425497799
+      pisos_mapa_35: -915277962
+      pisos_mapa_4: 1013501949
+      pisos_mapa_5: 176407114
+      pisos_mapa_6: -1020844969
+      pisos_mapa_7: -1297909242
+      pisos_mapa_8: 1743664594
+      pisos_mapa_9: -1630690045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

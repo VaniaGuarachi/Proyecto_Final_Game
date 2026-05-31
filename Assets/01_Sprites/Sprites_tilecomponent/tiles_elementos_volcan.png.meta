@@ -1,0 +1,4417 @@
+fileFormatVersion: 2
+guid: ffed54230cf06654aa4ae92fdae2684e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 958
+        width: 303
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc25be8e9c53e14ea7ed58e21356ddb
+      internalID: 2025298278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 958
+        width: 87
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebe9e6a7a26f9146bf213c32876b456
+      internalID: -968323025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_2
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1003
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9aeb6a97764dd4eb03de238da18aef
+      internalID: 710632508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1003
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2144455c6c1a57b4cb7ce3f5f54f4cb9
+      internalID: 299437023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_4
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1003
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27769dac6c6e10a47bc77c6d6e9f1d6a
+      internalID: 903357513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1003
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d305626dca71141852a064924ea54b
+      internalID: -259678863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 910
+        width: 54
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ccacda8f8e8464db9f282011c72b70
+      internalID: -1723420585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_7
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 910
+        width: 52
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d92d3af41038ba448c702fac6b382d4
+      internalID: 109383249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_8
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 910
+        width: 53
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11dc2a79a72c24ea51025cce183a16
+      internalID: 121776634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_9
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 911
+        width: 64
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714772589e88e8b4d8b6afb054b0cfc3
+      internalID: 1935191086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_10
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 911
+        width: 79
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b21d54bffb04b429e86dce906ae768
+      internalID: -1751912019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_11
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 835
+        width: 302
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858af63dbec9fb48ab128ebd0b3b639
+      internalID: -1111447170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 835
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361158edb0843f14198689ff0e691a58
+      internalID: 1875776329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 909
+        width: 70
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f729502cf91efe345acf47b8ef4f7c7d
+      internalID: -1596106117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 910
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ea708df5149e4eac8fbb1e08e460a
+      internalID: 1009429543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 910
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f334a129467cc847832b1c8483a8088
+      internalID: 2087215191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_16
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 910
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead1e1b7f268661498ddf8a469193ebc
+      internalID: -95400918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 698
+        width: 73
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70534f0a3ced1924792391b1aed41452
+      internalID: -1374765431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_18
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 699
+        width: 71
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdef072f53b93c047bf519b0ba0c97fd
+      internalID: -707938975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_19
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 819
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c7ae4db06a1e45a2fa672e7405723
+      internalID: 49425016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_20
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 819
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994bca83fbbd9544d9ebc1c6ed413a0a
+      internalID: 1586565949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_21
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 804
+        width: 203
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ea6c0008368764baf23b0f4844a19c
+      internalID: 748366750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_22
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 842
+        width: 127
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25111a3371ce1743b05ad91b2c438cd
+      internalID: 1575475069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 705
+        width: 302
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c089c0362e8e74db8c0aa2d28161eb
+      internalID: -1403597941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 705
+        width: 82
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536571048d0382449f7ef2e4b63466a
+      internalID: -1779037456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_25
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 700
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91052e93d7ed0ce4198f5e9a17b622f6
+      internalID: 1991728068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_26
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 701
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899b4823117dec44eb69d8dec70a4d61
+      internalID: 486159443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_27
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 690
+        width: 210
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5d7fe9a4eea1848a27eb3736a93caf
+      internalID: 243638351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_28
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 771
+        width: 138
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc1f965c8e36045b720f9c487fc141
+      internalID: -952464878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_29
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 701
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0605ae2c7065e234b9d62991a9756fd2
+      internalID: -1740642630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_30
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 690
+        width: 153
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0418497598091054da7dbfc991666543
+      internalID: 1960772385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83641a269f36420468b566f8c86fb4eb
+      internalID: 296529059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3f6ea9b8d3702489bd6864b72f3459
+      internalID: 1447327002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_33
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 607
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae834253418aae47874f645eec83d8e
+      internalID: -1625106883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 607
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b343adfd3aa0b44828413fcf20ebcb
+      internalID: -1462118045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_35
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeaab3e1e5b3944eb128e7f7a1454c2
+      internalID: -1324772957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_36
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 607
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd626dc107bfdfb48822b9ca73766ed7
+      internalID: -2012913234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 607
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf371573a4c6e374c904183f00a10394
+      internalID: 1630208298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0256ed1d08d846a8f08d4d9221fef
+      internalID: -1190679010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124e3039a665a1439ad19129ab9b322
+      internalID: -2142469490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_40
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa547d80a5150c498ccaaa42fe6ac1a
+      internalID: -721948039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_41
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 607
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c0bfc89b265d246aa075269304254e
+      internalID: 195947946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_42
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5081d4e5be703d244a77a579c0937cac
+      internalID: -148218686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_43
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52bfe438b1cba4caf4f8e44e1f8204
+      internalID: 959469340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd878b8cfb554047855527d822e45a0
+      internalID: 1728897533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79316af61ff7af84dabe19d12539d7b6
+      internalID: 312585313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_46
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2940ea23c8498c24eab91c484537caae
+      internalID: -2017275308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_47
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df9b241bbac83c4cacc9a1ea8151fef
+      internalID: 121097271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_48
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88380fa1aea6749b5905fe49257c03
+      internalID: -1916357620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_49
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 607
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3c9c5f13d41a4c88e918d82e301a5
+      internalID: -1480336797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_50
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 607
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1754cd69b30c447882049eff8f139a
+      internalID: -1962745903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_51
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5284132bb2e435548b3c44ffe36f77c2
+      internalID: -1853412084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_52
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 607
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ba5d3351ea3274397e102e45680697
+      internalID: 1373332425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_53
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 607
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f713b6c9e2bdee45b03574e78323eb3
+      internalID: -633701129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_54
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808e7270ae3c51243914dd4ef94fe794
+      internalID: 568511082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_55
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 606
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e30afd5b69954c8c2de1800732573
+      internalID: 879066160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_56
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc673cc857d22d4dba905296d03f8c9
+      internalID: 920418599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_57
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 606
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfadcc846d6d874c8cb184422a05c60
+      internalID: 574842389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_58
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 606
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa7860946013a40ae634fb2f878a7b
+      internalID: 193788743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_59
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44234e2dee4580409d64e778edb1c6c
+      internalID: -297784772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_60
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46ecbd90ad0f7b4a83d73c767699ba9
+      internalID: 433902278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_61
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3fd6ec74e7ffe44b907ea348abfaa9
+      internalID: -1961164582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_62
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e296a3017ae58934f8e1d9fb79d3c7fd
+      internalID: -1408149731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_63
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 606
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0c299441b8f5a4c9180e3ed3ab123a
+      internalID: -956229401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_64
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54a6dc9b200c3b4ea6b3d42a8c30470
+      internalID: 1235621617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_65
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 606
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da3938e8730c14d874a395da8e0e36
+      internalID: -784198625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_66
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9de87cacc99a49a4fcd1719db19d2
+      internalID: -1627058439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_67
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342a8cea74540c441aa8ca6adcbc1c5c
+      internalID: 1682628032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_68
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 606
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf001cbaed02e446937754c6270d34d
+      internalID: 1146620148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_69
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc38a68fb072f54aa0324c66f73d2d2
+      internalID: -2089499729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_70
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 606
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bd9f76ca90242428749c7937e5ab93
+      internalID: 107304000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_71
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1131638aaa458429cc6286f7ba2e8c
+      internalID: 1306042904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_72
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa29c961081ed4fb083edc831345af
+      internalID: -1323162577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_73
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c149212b093c20a49b210f3af75c0b5e
+      internalID: -1197260786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_74
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9016c2b3500852649bb1588da17b1b18
+      internalID: 1682037359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_75
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 606
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322a747afbee9b04e9adbcf36a5fd9d4
+      internalID: 1181040872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_76
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eec8aa642ba89948ae5fe53e5bc6f79
+      internalID: -532973542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_77
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fedec3408d8a2241a0635942721c9c6
+      internalID: -866920016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_78
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 606
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128ffc0e154acb34abcddb72092352b1
+      internalID: -1107819794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_79
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 606
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b981308a5d267479f0a184b27d2fd5
+      internalID: -1370611762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_80
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 606
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855720d54a2f61944a0e755488286403
+      internalID: -288684960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_81
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 606
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd848b608ab492f42a25644dda1a0c4a
+      internalID: -2084684877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_82
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 606
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3fc2362adc3c4c940863a01639405
+      internalID: -1473206683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_83
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e28ef54ec81d5449982a9b8ac5c134b
+      internalID: -373899821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_84
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 606
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba1e017202846b44976b1b0ed3a8397
+      internalID: -1028734064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_85
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 491
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df6c3b612dded4e892bcdfa72e2d75
+      internalID: -1505962411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_86
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 575
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a2e489d57399447864fbd5ad367766
+      internalID: -1449302655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_87
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 536
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aefd204f5137b45ae3a775aee436e2
+      internalID: 1831143108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_88
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 412
+        width: 124
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54d8c922e7218438c650e1ecb487a9
+      internalID: -834006223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_89
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 408
+        width: 71
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79ef943a7b4ebc49a9e89c1a53976ae
+      internalID: 1692586971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 491
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c209d3d0ad47540a43aabab4265103
+      internalID: -1011189596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_91
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 491
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0085d7018cb576d4d9ec725694ff3119
+      internalID: 1883459832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_92
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 525
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d007d461014f0a9449341ae0d9633784
+      internalID: 253571616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_93
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 533
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb40f085dcdffbb42b84219e19c1bcca
+      internalID: 15061833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_94
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 532
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fa9cb4243187247ad587531a02dea4
+      internalID: 389892021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_95
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 567
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5a08c004d7c74c8a0f053be48ead2
+      internalID: 1959255310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_96
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 567
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ed7301ff7270429e9755df176060e
+      internalID: -1928856702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_97
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 414
+        width: 166
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66265808cf2a4a248b0217bba6276714
+      internalID: -850217856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_98
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 536
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa35dd47b7332cb42a13ea402bdaa6c4
+      internalID: -1832532896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_99
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 561
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6661e895643ac48ac6d30857549717
+      internalID: 494501469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_100
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 563
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c11969f48a18794192cf2d258b6b2fd
+      internalID: 1798949151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_101
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 491
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943ebe3981968446bb21289f04b6693
+      internalID: 247645174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_102
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 491
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09109613497ebf4419b86404e255e668
+      internalID: 1427282063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_103
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 532
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0eadf6307e47847bcc2ac205485851
+      internalID: 1685320263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_104
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 531
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acc836d44cd2d2479f97c8a96ccbbcc
+      internalID: 1232075671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_105
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 529
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bc9135b924cd14b98efb9d1a774d05
+      internalID: 1566590222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_106
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 411
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3795a737386dbfc47b1caa54100e3be9
+      internalID: 1918858838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_107
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 411
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3e9a89e0b790d4eba5708937c4367e
+      internalID: -1231489220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_108
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 411
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6494afce70a3a224cb30aee6f820c3ee
+      internalID: 249275706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 411
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c620ded98f2b4145a38a271cdf134e2
+      internalID: -407814516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_110
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 411
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b942b0e6564714abad28886b2895b8
+      internalID: -1940843181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_111
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 436
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf903f7a86eb0e439d11dc78075a4dd
+      internalID: -893747887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_112
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 436
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a11e78830d5af42a17b777ed77d9dc
+      internalID: -2135270705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_113
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 436
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb562d706182bf44695f9a75ce427545
+      internalID: -1131155317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_114
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 436
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721fa1a861a8abc4c912c003a639dd44
+      internalID: 1802078075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_115
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 436
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce4fbf43637f2745b9bfcd7b4649e1b
+      internalID: 350500992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_116
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 289
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10f21bc097c2ff47838040c554b397b
+      internalID: -484166384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_117
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 290
+        width: 38
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130ff56889aa7441bc82443db14a3b1
+      internalID: -737149602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_118
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 290
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55825cc48d8b86e459ddb3403a090805
+      internalID: 1762601283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_119
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 290
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1cc284ab23e1345b1516746a090f1c
+      internalID: -85143292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_120
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 291
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac5741d24e71a942b22ccba060d967f
+      internalID: -46845610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_121
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 291
+        width: 34
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037cb0d103c7d6443b69da4b5f5dfb68
+      internalID: -490190046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_122
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 339
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11474ed54c795fb44ac034c5c3aba33c
+      internalID: -915642159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_123
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 339
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34b163b82e5858458515148172555a5
+      internalID: -930261926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_124
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 339
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3410520f680daa549931faff8f4a7820
+      internalID: -397952100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_125
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 339
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf705edd1afc724bb0097f26ea26222
+      internalID: -529156201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_126
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 339
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d0796105800c74d9ff74a68a6eb2cc
+      internalID: 1521742307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_127
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 289
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b563cb17960f1294e9e7e9c0e0a07bec
+      internalID: -1857066514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_128
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 295
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6015f34df1c72949989b961a4d47205
+      internalID: 1994852115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_129
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 289
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f9ce511c548245801c7d4abef9822
+      internalID: 1481362356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_130
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 294
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42645c6519bdff42893fbf4dae611de
+      internalID: -782224677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_131
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 289
+        width: 91
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c9f5a172f96045a57b9901d75d95a
+      internalID: -1815286281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_132
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 293
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f450ae731fcee46941b7118ee4daf5
+      internalID: -1600837644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_133
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 293
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03b31fefd921cf45a4a737d4e141c6d
+      internalID: -2098283256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_134
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 275
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d9c7167053e19498fa6eb99c89c047
+      internalID: -1885845791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_135
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 278
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a332e6e5722af74b8af258f4d56ae3a
+      internalID: 1997191612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_136
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 278
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3b0d6685bb7944f90d066d31a417f0
+      internalID: 918114164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_137
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 278
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e22c80195d6c044f8ce560f0b756b68
+      internalID: 1436680530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_138
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 279
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7b7d5798098841b089192e8c112a1
+      internalID: -1168474545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_139
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 279
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe2631ce16eea3469e9f45d3588cbb3
+      internalID: -948428551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_140
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 280
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc8774d6cabb2041a50ce6d6aeb1f44
+      internalID: -1751439733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_141
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 279
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90947a01912e37b4cb6f794471b128c2
+      internalID: 379337047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_142
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306d61a460976f4f89e543144429b3d
+      internalID: 1678588131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_143
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 199
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8b7699d63fb104ab390c3ef1bfadd9
+      internalID: -1932156872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_144
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2eaf4235d38104489eab7cd3573ab5d
+      internalID: 1213607008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_145
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 199
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012e338383cfbb8468469572130f79cb
+      internalID: 714231239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_146
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 199
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117268f3d3664cb42a782f0c33d706cd
+      internalID: 1778851689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_147
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 199
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208e1f6cc09e60c46a3244209618c439
+      internalID: -345894607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_148
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f525060a38107be4bb50bfcbc9f40423
+      internalID: 832986675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_149
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231619521b733c04babf3cc0424e4093
+      internalID: -1309646880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_150
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e7d039c8242e646be55dd08f02b2f2
+      internalID: 861119643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_151
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3190e4e3ccd364bbed0f52a66404cf
+      internalID: 1001516711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_152
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ef53082714f542b349d064a7567d1
+      internalID: 1248907447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_153
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 199
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a27165c92efb54286ffb835be377d0
+      internalID: -873254659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_154
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52780bd0db5036d46916e1f17f214a7b
+      internalID: 205505925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_155
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c464832ff10947a55e44035df2e7a
+      internalID: 250767139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_156
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443230e11d58e8b41996b7df44a966c1
+      internalID: -626972428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_157
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c090954932fcd244acd1b999911eff3
+      internalID: 1839519449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_158
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7edbe8952fb244b9fdf7fca9f47f10
+      internalID: 1558568047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_159
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e0110b01bd8a44ebb5f264e66ad70a
+      internalID: 1018538551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_160
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 199
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2f809e138e03a49b638df6840113f5
+      internalID: 877411538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_161
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d6b3b3e1dc8534aae21e33eca63823
+      internalID: -306167697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_162
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a1eca8ef0ab3c46a51d554622101dd
+      internalID: 1821671400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_163
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 199
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b3f68ca1eded548b8c74c8c2f7b4ff
+      internalID: 2102876927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_164
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 199
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937a356b44f3cd441b5d3f151c30aae4
+      internalID: 419831853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_165
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 198
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcaa21997c4e5f469e7d4923ead9aeb
+      internalID: 434578108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_166
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d6b95b45917fc489a2407d6096554f
+      internalID: 1163114663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_167
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f16a806c8471924caf09f51dcfd90c1
+      internalID: 281829160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_168
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 199
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd54927e5ff5f74ea9d025c9d11d222
+      internalID: 533223791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_169
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 199
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061e351b2e4eb24e8d07218973d263f
+      internalID: 353936166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_170
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3979bb23e79e1754393fac5cc6dc328b
+      internalID: -2096628286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_171
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 199
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1011a718afd7b5348b3493844dbed16f
+      internalID: 369504451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_172
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8eeaa65ca96648bcbfe0527c25ae9
+      internalID: -2117831062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_173
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 107
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536aec0cb28906949ac95d4f1cd161c8
+      internalID: 572165374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_174
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6766b974e5a0a4ab8e44257baec634
+      internalID: 525800318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_175
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 146
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806b36759676bf44db2742abc154ead4
+      internalID: 1046144876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_176
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 108
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c809df4bbb1e5498698ca4d142a488
+      internalID: 1322314559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_177
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 27
+        width: 87
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16e8de9350c3774eb4ce0dbff435bf6
+      internalID: -1934061421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_178
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 30
+        width: 81
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c98b4e33ef044493ac7bf8e24c90a
+      internalID: 1779407682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_179
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 31
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705bb0408538e64e9b8bfe6d36a8710
+      internalID: 1409952378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_180
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 31
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2338fd33b57536f429e81f4ba40e36d0
+      internalID: -451510647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_181
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 30
+        width: 92
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9314164c0e3094449924e9e6f6d5fd04
+      internalID: 794847639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_182
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 30
+        width: 90
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04532ba461be514286284fdb36b3ff5
+      internalID: 1788697395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_183
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 21
+        width: 97
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5358f2aa0ccb7a84080a72082b393c7c
+      internalID: -1765776085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_184
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 107
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9223243dc2ba74bbf5f0a52c26727b
+      internalID: -1344037057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_185
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 108
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833bffc7a89be0c40831bb4d49a91e25
+      internalID: -1085076170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_186
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 22
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5dca5915823f747939c8f4bce01d98
+      internalID: -827984522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_187
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 23
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6652998a6228da54580ea462ae44c844
+      internalID: -1247841181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_188
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 23
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fc72170a94a0f4eac3b0c4df6a24b3
+      internalID: -1533530205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_189
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 22
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dfad73817d0b04cb4d97637e86efab
+      internalID: -1309312092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_190
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90976c4132363e84d9b4da261d3bb200
+      internalID: 609426742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_191
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 23
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889aaf48dc6c744b985d8630d7a5a8c
+      internalID: 88744100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_192
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aabe354d09cee540981ad83a5cda7cd
+      internalID: 2094423536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_193
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 49
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74eecd2408a5f541b30ef38ea519461
+      internalID: 946203499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_elementos_volcan_194
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 23
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a54fd0dfaaeb84eb7e0dce6e40bb72
+      internalID: -169713240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tiles_elementos_volcan_0: 2025298278
+      tiles_elementos_volcan_1: -968323025
+      tiles_elementos_volcan_10: -1751912019
+      tiles_elementos_volcan_100: 1798949151
+      tiles_elementos_volcan_101: 247645174
+      tiles_elementos_volcan_102: 1427282063
+      tiles_elementos_volcan_103: 1685320263
+      tiles_elementos_volcan_104: 1232075671
+      tiles_elementos_volcan_105: 1566590222
+      tiles_elementos_volcan_106: 1918858838
+      tiles_elementos_volcan_107: -1231489220
+      tiles_elementos_volcan_108: 249275706
+      tiles_elementos_volcan_109: -407814516
+      tiles_elementos_volcan_11: -1111447170
+      tiles_elementos_volcan_110: -1940843181
+      tiles_elementos_volcan_111: -893747887
+      tiles_elementos_volcan_112: -2135270705
+      tiles_elementos_volcan_113: -1131155317
+      tiles_elementos_volcan_114: 1802078075
+      tiles_elementos_volcan_115: 350500992
+      tiles_elementos_volcan_116: -484166384
+      tiles_elementos_volcan_117: -737149602
+      tiles_elementos_volcan_118: 1762601283
+      tiles_elementos_volcan_119: -85143292
+      tiles_elementos_volcan_12: 1875776329
+      tiles_elementos_volcan_120: -46845610
+      tiles_elementos_volcan_121: -490190046
+      tiles_elementos_volcan_122: -915642159
+      tiles_elementos_volcan_123: -930261926
+      tiles_elementos_volcan_124: -397952100
+      tiles_elementos_volcan_125: -529156201
+      tiles_elementos_volcan_126: 1521742307
+      tiles_elementos_volcan_127: -1857066514
+      tiles_elementos_volcan_128: 1994852115
+      tiles_elementos_volcan_129: 1481362356
+      tiles_elementos_volcan_13: -1596106117
+      tiles_elementos_volcan_130: -782224677
+      tiles_elementos_volcan_131: -1815286281
+      tiles_elementos_volcan_132: -1600837644
+      tiles_elementos_volcan_133: -2098283256
+      tiles_elementos_volcan_134: -1885845791
+      tiles_elementos_volcan_135: 1997191612
+      tiles_elementos_volcan_136: 918114164
+      tiles_elementos_volcan_137: 1436680530
+      tiles_elementos_volcan_138: -1168474545
+      tiles_elementos_volcan_139: -948428551
+      tiles_elementos_volcan_14: 1009429543
+      tiles_elementos_volcan_140: -1751439733
+      tiles_elementos_volcan_141: 379337047
+      tiles_elementos_volcan_142: 1678588131
+      tiles_elementos_volcan_143: -1932156872
+      tiles_elementos_volcan_144: 1213607008
+      tiles_elementos_volcan_145: 714231239
+      tiles_elementos_volcan_146: 1778851689
+      tiles_elementos_volcan_147: -345894607
+      tiles_elementos_volcan_148: 832986675
+      tiles_elementos_volcan_149: -1309646880
+      tiles_elementos_volcan_15: 2087215191
+      tiles_elementos_volcan_150: 861119643
+      tiles_elementos_volcan_151: 1001516711
+      tiles_elementos_volcan_152: 1248907447
+      tiles_elementos_volcan_153: -873254659
+      tiles_elementos_volcan_154: 205505925
+      tiles_elementos_volcan_155: 250767139
+      tiles_elementos_volcan_156: -626972428
+      tiles_elementos_volcan_157: 1839519449
+      tiles_elementos_volcan_158: 1558568047
+      tiles_elementos_volcan_159: 1018538551
+      tiles_elementos_volcan_16: -95400918
+      tiles_elementos_volcan_160: 877411538
+      tiles_elementos_volcan_161: -306167697
+      tiles_elementos_volcan_162: 1821671400
+      tiles_elementos_volcan_163: 2102876927
+      tiles_elementos_volcan_164: 419831853
+      tiles_elementos_volcan_165: 434578108
+      tiles_elementos_volcan_166: 1163114663
+      tiles_elementos_volcan_167: 281829160
+      tiles_elementos_volcan_168: 533223791
+      tiles_elementos_volcan_169: 353936166
+      tiles_elementos_volcan_17: -1374765431
+      tiles_elementos_volcan_170: -2096628286
+      tiles_elementos_volcan_171: 369504451
+      tiles_elementos_volcan_172: -2117831062
+      tiles_elementos_volcan_173: 572165374
+      tiles_elementos_volcan_174: 525800318
+      tiles_elementos_volcan_175: 1046144876
+      tiles_elementos_volcan_176: 1322314559
+      tiles_elementos_volcan_177: -1934061421
+      tiles_elementos_volcan_178: 1779407682
+      tiles_elementos_volcan_179: 1409952378
+      tiles_elementos_volcan_18: -707938975
+      tiles_elementos_volcan_180: -451510647
+      tiles_elementos_volcan_181: 794847639
+      tiles_elementos_volcan_182: 1788697395
+      tiles_elementos_volcan_183: -1765776085
+      tiles_elementos_volcan_184: -1344037057
+      tiles_elementos_volcan_185: -1085076170
+      tiles_elementos_volcan_186: -827984522
+      tiles_elementos_volcan_187: -1247841181
+      tiles_elementos_volcan_188: -1533530205
+      tiles_elementos_volcan_189: -1309312092
+      tiles_elementos_volcan_19: 49425016
+      tiles_elementos_volcan_190: 609426742
+      tiles_elementos_volcan_191: 88744100
+      tiles_elementos_volcan_192: 2094423536
+      tiles_elementos_volcan_193: 946203499
+      tiles_elementos_volcan_194: -169713240
+      tiles_elementos_volcan_2: 710632508
+      tiles_elementos_volcan_20: 1586565949
+      tiles_elementos_volcan_21: 748366750
+      tiles_elementos_volcan_22: 1575475069
+      tiles_elementos_volcan_23: -1403597941
+      tiles_elementos_volcan_24: -1779037456
+      tiles_elementos_volcan_25: 1991728068
+      tiles_elementos_volcan_26: 486159443
+      tiles_elementos_volcan_27: 243638351
+      tiles_elementos_volcan_28: -952464878
+      tiles_elementos_volcan_29: -1740642630
+      tiles_elementos_volcan_3: 299437023
+      tiles_elementos_volcan_30: 1960772385
+      tiles_elementos_volcan_31: 296529059
+      tiles_elementos_volcan_32: 1447327002
+      tiles_elementos_volcan_33: -1625106883
+      tiles_elementos_volcan_34: -1462118045
+      tiles_elementos_volcan_35: -1324772957
+      tiles_elementos_volcan_36: -2012913234
+      tiles_elementos_volcan_37: 1630208298
+      tiles_elementos_volcan_38: -1190679010
+      tiles_elementos_volcan_39: -2142469490
+      tiles_elementos_volcan_4: 903357513
+      tiles_elementos_volcan_40: -721948039
+      tiles_elementos_volcan_41: 195947946
+      tiles_elementos_volcan_42: -148218686
+      tiles_elementos_volcan_43: 959469340
+      tiles_elementos_volcan_44: 1728897533
+      tiles_elementos_volcan_45: 312585313
+      tiles_elementos_volcan_46: -2017275308
+      tiles_elementos_volcan_47: 121097271
+      tiles_elementos_volcan_48: -1916357620
+      tiles_elementos_volcan_49: -1480336797
+      tiles_elementos_volcan_5: -259678863
+      tiles_elementos_volcan_50: -1962745903
+      tiles_elementos_volcan_51: -1853412084
+      tiles_elementos_volcan_52: 1373332425
+      tiles_elementos_volcan_53: -633701129
+      tiles_elementos_volcan_54: 568511082
+      tiles_elementos_volcan_55: 879066160
+      tiles_elementos_volcan_56: 920418599
+      tiles_elementos_volcan_57: 574842389
+      tiles_elementos_volcan_58: 193788743
+      tiles_elementos_volcan_59: -297784772
+      tiles_elementos_volcan_6: -1723420585
+      tiles_elementos_volcan_60: 433902278
+      tiles_elementos_volcan_61: -1961164582
+      tiles_elementos_volcan_62: -1408149731
+      tiles_elementos_volcan_63: -956229401
+      tiles_elementos_volcan_64: 1235621617
+      tiles_elementos_volcan_65: -784198625
+      tiles_elementos_volcan_66: -1627058439
+      tiles_elementos_volcan_67: 1682628032
+      tiles_elementos_volcan_68: 1146620148
+      tiles_elementos_volcan_69: -2089499729
+      tiles_elementos_volcan_7: 109383249
+      tiles_elementos_volcan_70: 107304000
+      tiles_elementos_volcan_71: 1306042904
+      tiles_elementos_volcan_72: -1323162577
+      tiles_elementos_volcan_73: -1197260786
+      tiles_elementos_volcan_74: 1682037359
+      tiles_elementos_volcan_75: 1181040872
+      tiles_elementos_volcan_76: -532973542
+      tiles_elementos_volcan_77: -866920016
+      tiles_elementos_volcan_78: -1107819794
+      tiles_elementos_volcan_79: -1370611762
+      tiles_elementos_volcan_8: 121776634
+      tiles_elementos_volcan_80: -288684960
+      tiles_elementos_volcan_81: -2084684877
+      tiles_elementos_volcan_82: -1473206683
+      tiles_elementos_volcan_83: -373899821
+      tiles_elementos_volcan_84: -1028734064
+      tiles_elementos_volcan_85: -1505962411
+      tiles_elementos_volcan_86: -1449302655
+      tiles_elementos_volcan_87: 1831143108
+      tiles_elementos_volcan_88: -834006223
+      tiles_elementos_volcan_89: 1692586971
+      tiles_elementos_volcan_9: 1935191086
+      tiles_elementos_volcan_90: -1011189596
+      tiles_elementos_volcan_91: 1883459832
+      tiles_elementos_volcan_92: 253571616
+      tiles_elementos_volcan_93: 15061833
+      tiles_elementos_volcan_94: 389892021
+      tiles_elementos_volcan_95: 1959255310
+      tiles_elementos_volcan_96: -1928856702
+      tiles_elementos_volcan_97: -850217856
+      tiles_elementos_volcan_98: -1832532896
+      tiles_elementos_volcan_99: 494501469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
