@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Player
   - Slime
   - Machine
   layers:
@@ -18,7 +17,7 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
+  - Slime
   - 
   - 
   - 

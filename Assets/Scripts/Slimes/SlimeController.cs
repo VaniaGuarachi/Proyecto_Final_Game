@@ -13,6 +13,7 @@ public class SlimeController : MonoBehaviour
     [Range(0, 100)] [SerializeField] private int happiness = 50;
 
     [Header("Movimiento")]
+    [SerializeField] private bool controlsMovement = true;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float directionChangeTime = 2f;
 
@@ -33,6 +34,11 @@ public class SlimeController : MonoBehaviour
 
     private void Update()
     {
+        if (!controlsMovement)
+        {
+            return;
+        }
+
         directionTimer -= Time.deltaTime;
 
         if (directionTimer <= 0f)
@@ -44,6 +50,11 @@ public class SlimeController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!controlsMovement)
+        {
+            return;
+        }
+
         rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
     }
 

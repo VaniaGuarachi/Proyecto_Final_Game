@@ -1,0 +1,441 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pizar" at "2026-06-02T15:07:39.5776907Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 10154 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-02T15:07:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-quit
+-batchmode
+-projectPath
+C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main
+-logFile
+C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\CodexAcidSlimeImport.log
+Successfully changed project path to: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main
+C:/Users/pizar/OneDrive/Escritorio/Proyecto_Final_Game-main/Proyecto_Final_Game-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [21212]  Target information:
+
+Player connection [21212]  * "[IP] 10.14.202.67 [Port] 55504 [Flags] 2 [Guid] 701026644 [EditorId] 701026644 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15JM3EO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-2676" after 3.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              011fb598091642319284364dda493fb7
+  Correlation Id:          18222978c7a8691a06b6b5cc7ec69fb9
+  External correlation Id: 689123152118172641
+  Machine Id:              IwKkMwumIZhDcLdOqGB4eRi7UXU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-pizar" (connect: 0.00s, validation: 0.06s, handshake: 6.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-pizar-notifications" at "2026-06-02T15:07:46.16524Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674159925144-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 6.74s
+[Licensing::Module] Licensing is initialized (took 2.74s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pizar/OneDrive/Escritorio/Proyecto_Final_Game-main/Proyecto_Final_Game-main/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     5077 MB
+    Driver:   27.20.15002.118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008520 seconds.
+- Loaded All Assemblies, in  1.732 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.120 seconds
+Domain Reload Profiling: 3845ms
+	BeginReloadAssembly (737ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (188ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (708ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (614ms)
+			TypeCache.Refresh (607ms)
+				TypeCache.ScanAssembly (563ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2123ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1989ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (154ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (593ms)
+			ProcessInitializeOnLoadAttributes (861ms)
+			ProcessInitializeOnLoadMethodAttributes (369ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 64 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@13.0.4 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.animation@7396d8477ca9)
+    com.unity.2d.aseprite@3.0.1 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7)
+    com.unity.2d.psdimporter@12.0.1 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e)
+    com.unity.2d.spriteshape@13.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647)
+    com.unity.2d.tilemap.extras@6.0.1 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867)
+    com.unity.collab-proxy@2.11.3 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623)
+    com.unity.ide.rider@3.0.39 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.18.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.inputsystem@57d0e36f6123)
+    com.unity.timeline@1.8.10 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.timeline@7f8b2fb101b6)
+    com.unity.visualscripting@1.9.9 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69)
+    com.unity.2d.common@12.0.2 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.common@800085e896ad)
+    com.unity.mathematics@1.3.3 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.collections@2.6.2 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.collections@aea9d3bd5e19)
+    com.unity.searcher@4.9.4 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.27 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.burst@973857688024)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.2.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.sprite@08e067ec1643)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.2d.tilemap@2394479dc113)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.render-pipelines.universal@a6e30d1f59f5)
+    com.unity.test-framework@1.6.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d)
+    com.unity.ugui@2.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.ugui@bb329a87fcdc)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.render-pipelines.core@d6dfd1e235d5)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.shadergraph@d44b48771ebb)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\pizar\OneDrive\Escritorio\Proyecto_Final_Game-main\Proyecto_Final_Game-main\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.35 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Connectivity with IL Post Processor runner cannot be established yet. Retrying.Starting: C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/pizar/OneDrive/Escritorio/Proyecto_Final_Game-main/Proyecto_Final_Game-main
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/pizar/OneDrive/Escritorio/Proyecto_Final_Game-main/Proyecto_Final_Game-main
+ExitCode: 4 Duration: 7s377ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[BUSY       6s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[ 681/1033  6s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (7.13 seconds), 1 items updated, 678 evaluated
+ExitCode: 0 Duration: 15s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/pizar/OneDrive/Escritorio/Proyecto_Final_Game-main/Proyecto_Final_Game-main
+ExitCode: 0 Duration: 3s238ms
+Finished compiling graph: 1037 nodes, 19435 flattened edges (16101 ToBuild, 164 ToUse), maximum node priority 1146
+[ 804/1033  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (3.07 seconds), 1 items updated, 1033 evaluated
+AssetDatabase: script compilation time: 43.222678s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.782 seconds
+Start importing Assets/Resources/Slimes/Acid using Guid(cbcd85d9eb68680e2f7bbacf8c2ab7d6) (DefaultImporter) -> (artifact id: 'b17b853b69f6742f97b960e6d2a6c1c2') in 0.0642326 seconds
+Start importing Assets/Art/Slimes/Acid using Guid(6d1d1203c7686a1f8887ad9df808d2c4) (DefaultImporter) -> (artifact id: '7562e65a44ba4dc7876268abcc08203e') in 0.0140242 seconds
+Refreshing native plugins compatible for Editor in 15.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.731 seconds
+Domain Reload Profiling: 14494ms
+	BeginReloadAssembly (689ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (204ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1811ms)
+		LoadAssemblies (1276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (841ms)
+			TypeCache.Refresh (505ms)
+				TypeCache.ScanAssembly (480ms)
+			BuildScriptInfoCaches (295ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (11732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (11037ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (593ms)
+			ProcessInitializeOnLoadAttributes (9641ms)
+			ProcessInitializeOnLoadMethodAttributes (688ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Start importing Assets/Scenes/CriadorSlimesTest.unity using Guid(c634af42c9f347679b7d2126fb9ed291) (DefaultImporter) -> (artifact id: '47d45578f9d76f00323247ae148cd1e1') in 0.0209474 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_01.png using Guid(405ec3eff4bb569229f26d0cb7c1c401) (TextureImporter) -> (artifact id: 'b187cc9b3c90a184061f42e90cd3232b') in 0.1239453 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_01.png using Guid(50cf6e78d3130216ea279733c351c714) (TextureImporter) -> (artifact id: '58fdbe6368a4536341ef3aefdc02428f') in 0.0112484 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_05.png using Guid(60ec098b894aeb4e5b792fd29220892a) (TextureImporter) -> (artifact id: 'a498c68530d56676dd3db445449739bf') in 0.0116219 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_08.png using Guid(118b79f67632bc9804962948212fb48d) (TextureImporter) -> (artifact id: '7323dcea39b00a53f0c853e699382374') in 0.0142397 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_Projectile.png using Guid(21479f98a0fd6086744bf09f12abcd4b) (TextureImporter) -> (artifact id: 'b00804b772c84d349e7b456eb18883b8') in 0.0158318 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_01.png using Guid(314cfe228f79316510f3696398a5c640) (TextureImporter) -> (artifact id: '7da37d22a75862c579219a2f992d1fd4') in 0.0148602 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_03.png using Guid(61d07a2e9e320ee9d3921664d04fd2ab) (TextureImporter) -> (artifact id: '1ed62349c0267333c286e514bb1eb497') in 0.0112858 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_07.png using Guid(6136fb2af3fd7ac630482cbda8d5dacd) (TextureImporter) -> (artifact id: 'bdc34f1c55dfbeda5c10604a4ded4e59') in 0.0106594 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_01.png using Guid(91f504f0c2f6ea134be5b9052cd6e28d) (TextureImporter) -> (artifact id: 'b84ef2dcf59400701a2823fdac77f233') in 0.0217629 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_03.png using Guid(e145108a9658096016e92dd531516ee4) (TextureImporter) -> (artifact id: '66ef5404a014dcd444ad16b999a49d47') in 0.0114111 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_07.png using Guid(621695b5ed7610c8d2bda907681cd398) (TextureImporter) -> (artifact id: 'ff47be599294fbae358b139a983eb0fd') in 0.0112784 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_00.png using Guid(622a74477dce44ef4feacd2e37b61150) (TextureImporter) -> (artifact id: '9130b10cce474b145015536527f69e4d') in 0.0133415 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_01.png using Guid(82a6727db86d780d1ca5a28a4a2f50b2) (TextureImporter) -> (artifact id: '60c2eb65b5b48523b206d7480579aaf7') in 0.0112267 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_03.png using Guid(92fafb4cdc9f6992cb21cf0bf9d06fc8) (TextureImporter) -> (artifact id: '6a63fd2916130d620d3077f74785c7ea') in 0.0128404 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_01.png using Guid(926b613eee70a7cdb782afbbf2feef95) (TextureImporter) -> (artifact id: '56994bb10a6c31265710cb750ffffaf2') in 0.0308212 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_07.png using Guid(b2d9e18dc049423d698ccd72731bef16) (TextureImporter) -> (artifact id: '01cfb0571f328737a3da37c1f4b7d37a') in 0.0122745 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_03.png using Guid(f2fa03fd3f432944826b33ae18b6a770) (TextureImporter) -> (artifact id: '42ab731f37b3626e3005e50a957685a2') in 0.012719 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_04.png using Guid(03ea8274ecad9e7f6e02918e573fed1e) (TextureImporter) -> (artifact id: '5cc31008cd5520125a388e25a981746e') in 0.0305609 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_07.png using Guid(9324c46474aa7f200988d8cb7542ba87) (TextureImporter) -> (artifact id: '454b14a039d933e5f4c3856901d7b5d4') in 0.0115213 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_06.png using Guid(93efa0a4087ac3c7e5a7fe9006dbfe62) (TextureImporter) -> (artifact id: '33731656bb2df06c76c89fc2a208a41f') in 0.0469029 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_03.png using Guid(c3866425de6823a75d588d61b3323ea8) (TextureImporter) -> (artifact id: 'eb55dee4b669610d4c92e36b72473556') in 0.0116038 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_02.png using Guid(f321c0736fb1101f89bc1a56bf80d5fb) (TextureImporter) -> (artifact id: '42b4f7851c9eb4707228bc6289b09679') in 0.0119864 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_04.png using Guid(f3d26a139da2978599085fd9ab10361b) (TextureImporter) -> (artifact id: '43dc80ca6ff68ef7c8f43f377cec32c1') in 0.0251374 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_07.png using Guid(04e21de229246efeca12e256e80588b8) (TextureImporter) -> (artifact id: '3d6db9012cdc8e6c4a1f445a3c09656a') in 0.0137225 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_00.png using Guid(94f9a1718c1268cf92d454b24a1ff7f5) (TextureImporter) -> (artifact id: '5b05e1f35152af85bbf214f485161248') in 0.0130622 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_01.png using Guid(94efa955b33f1255d1b10c3446b93e5f) (TextureImporter) -> (artifact id: '135b5c91545f4f7a8f1ff9b395cbc9fd') in 0.0272161 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_04.png using Guid(c4bc08876a041659432e290afdfb5f3c) (TextureImporter) -> (artifact id: '88c51a931f01545e74891a87e51fc6d9') in 0.0112241 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_00.png using Guid(55e1f8fdb34602a335c5b587daa96b16) (TextureImporter) -> (artifact id: '77856312640aa5f825eed8402aaaec95') in 0.0162267 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_03.png using Guid(d562dd9f47390df555c5e189f33f6a93) (TextureImporter) -> (artifact id: 'ec3755f8dc15bb8b9a1ce10271d63e74') in 0.0163092 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_04.png using Guid(e50b45355cea9449360899b472dd462a) (TextureImporter) -> (artifact id: '88e258b5198a828b52be413bd9b8b334') in 0.0145157 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_03.png using Guid(f5af00c8c8650c6752721c0eb3e6de9a) (TextureImporter) -> (artifact id: '20c0a9b36a9c22d44c67a65a37c709d8') in 0.0335391 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_00.png using Guid(66d57303740b33ca9be4ee1a8b795048) (TextureImporter) -> (artifact id: 'b09d372bd590e9d996dbc1a5f73661f9') in 0.0142561 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_03.png using Guid(a6380363cdb60afd73e21ebb860ea1f4) (TextureImporter) -> (artifact id: '829ce10b7a19db36a5678c3ac84266dc') in 0.012048 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_09.png using Guid(e674f232638d63118ff8620b71d9289b) (TextureImporter) -> (artifact id: 'beac8d5ae4c1c40cd7a36fc2a53387ee') in 0.0650552 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_09.png using Guid(f6fc37d9ee82755ef29e8b838d4e21b0) (TextureImporter) -> (artifact id: 'eae8cf8f923c8e5b29ed7f7efab33412') in 0.0153136 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_02.png using Guid(575f5b173017a457670ac6a76f3f2a03) (TextureImporter) -> (artifact id: '1cf6496cd713815c4328e022bdd818fd') in 0.0550229 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_04.png using Guid(87a10232800ea57ec7fdd14ea352c915) (TextureImporter) -> (artifact id: '4e4ae9ace8c03dbb5fdacf23e32247b3') in 0.0144145 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_04.png using Guid(c7827a06d2493a69ec28ef02e49e0c01) (TextureImporter) -> (artifact id: '9ab49a52c4ef1f6a681f27f6019d7f46') in 0.0152775 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_05.png using Guid(18ebd68d8f0010e3e1792747093a9e00) (TextureImporter) -> (artifact id: '0bf2d0ae75111faeb809b29d94d4c0da') in 0.055952 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_07.png using Guid(88341daaaee0cff12a20c97d8a474aa0) (TextureImporter) -> (artifact id: 'db97de326337c8cc0892a229a309a331') in 0.0109541 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_02.png using Guid(e85c18c2c795354fa7783bf9852afd88) (TextureImporter) -> (artifact id: '17e14b01e4cfacb0bd8c076ec93e534a') in 0.01255 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_07.png using Guid(099779f68aeb718072eef290e939c93d) (TextureImporter) -> (artifact id: 'b2d6453872c2780f443f962a1786bbc4') in 0.0295304 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_05.png using Guid(4937b456fca3a89f1c13706e1c5aa50f) (TextureImporter) -> (artifact id: '7a0bd706816f8a8784cf8bf6018f7214') in 0.0107425 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_05.png using Guid(5958c9b4872bf2be2311362b27c4e7f7) (TextureImporter) -> (artifact id: '0ec4cc5dc4d39e640d3c162c4ef6211e') in 0.0107118 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_01.png using Guid(79d3abaeda108761494ac8385ee4c690) (TextureImporter) -> (artifact id: 'c1de2d3cd65517dc72ab4e87fca76138') in 0.0162174 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_00.png using Guid(a9e2a36e8277a7e387723ed40c97233c) (TextureImporter) -> (artifact id: '112ef9c6b2f25530b23ea0dd9ad8d16d') in 0.0113152 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_06.png using Guid(d95d98f3ee754ce24495788b0e102f26) (TextureImporter) -> (artifact id: 'c07f9fade9ac4b8dfa0da15117104bbd') in 0.0261465 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_05.png using Guid(f9ad16f16318822605aa098bcef97b1d) (TextureImporter) -> (artifact id: 'e02833265edb3a8d36f31b69e82b0f21') in 0.0126322 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_die_06.png using Guid(5afa278734096b9403428f37286b32a9) (TextureImporter) -> (artifact id: '7205ae79371423f8660febaa896f74d0') in 0.0104642 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_05.png using Guid(ca123357f7cbb5b4aa8eb5ad74d416ca) (TextureImporter) -> (artifact id: '680bf562fef74903ddc6c0454a080742') in 0.0408688 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_01.png using Guid(dadc75329a002411e012a128705a4777) (TextureImporter) -> (artifact id: 'f6f176a782e6fa63b1916243938dd5a8') in 0.0126931 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_06.png using Guid(eae99f557106789f4792ebc944351da7) (TextureImporter) -> (artifact id: '50d6cb98767a76291d4d82c266e7cffe') in 0.0129248 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_06.png using Guid(5b7ea404d6a9b298154f8a347341d366) (TextureImporter) -> (artifact id: '18b2b133cd420e5d31bf01fff49133a8') in 0.0333225 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_04.png using Guid(6bb94f6058d2bc0c835a9ec664a4d3bd) (TextureImporter) -> (artifact id: '23d9dd15da75de850d5de824d1b60c31') in 0.0115137 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_00.png using Guid(8b147e4dfb9c56a79e628730bdfbe206) (TextureImporter) -> (artifact id: 'dcc86a9cd2f22ce72644eb7a5415af75') in 0.0336697 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_04.png using Guid(9bee5f5eefb13633e773ba899b873166) (TextureImporter) -> (artifact id: '0b1e7873e14c05ed359909579acf378f') in 0.0106892 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_00.png using Guid(0c6e5218b00ee5d44aba9874b2b6be88) (TextureImporter) -> (artifact id: '3b35acd88f5ce580363e5a6f1db51bb1') in 0.0114499 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_05.png using Guid(1c34972bf7df78326cca4cfef0925b66) (TextureImporter) -> (artifact id: '5e7e41fa4d1b81a1987188a3509c273a') in 0.0334995 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_08.png using Guid(7caca781376ba57cb2d7580d72319ada) (TextureImporter) -> (artifact id: '9f38292f62c7238969ba0a826ac222f4') in 0.0115185 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_05.png using Guid(8caf7bbf15f8b4197fd473e69c3e3b89) (TextureImporter) -> (artifact id: '2d1281ff9cb39e317495db457521a2aa') in 0.0133726 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_00.png using Guid(9c30ffcfad04908355885a60226a39ab) (TextureImporter) -> (artifact id: 'e09c365c25ac091f7facf6a75daf4517') in 0.0305682 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_01.png using Guid(bcf20cbf948a44e4e4b71d50f4b438eb) (TextureImporter) -> (artifact id: '6b613b7ce2e2f2e53e9d9296a8d69407') in 0.0118499 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_02.png using Guid(dcdb0b48d83b27e9ef08ccd1932e487b) (TextureImporter) -> (artifact id: 'e4609ebf223b92f5d3a44436222f86f6') in 0.0113148 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_03.png using Guid(0d14914ee2c7edf95467ba89f26e1231) (TextureImporter) -> (artifact id: 'fb1adb6853d87452091dffb2e105a781') in 0.0182112 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_06.png using Guid(2dfc0a477ae88de6bfc590818fb90b34) (TextureImporter) -> (artifact id: '67d4f660488f9dcfe382c5821dbf8383') in 0.0120736 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_02.png using Guid(8d8005187d47ccd91dde9a823f28b35a) (TextureImporter) -> (artifact id: '3bd9475deb30c61c5570aba6a922c5f2') in 0.0108874 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_idle_06.png using Guid(8d6c81995a6a715c90a1ec70971649b1) (TextureImporter) -> (artifact id: '9a51ae0a2c2351abb0248953c4a90ed4') in 0.012755 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_04.png using Guid(adf54ff758ababd1269b45e00537a570) (TextureImporter) -> (artifact id: 'fb32eaa5f3e0b253121152b7ded5cac1') in 0.0109134 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_02.png using Guid(ddfb953052a82680938c8c9ce17fb0ee) (TextureImporter) -> (artifact id: '01670f97872f389aec59250ed3366093') in 0.0213957 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_03.png using Guid(eddf7cb9703148a6d13f59697a23075e) (TextureImporter) -> (artifact id: '3eb43beb5069f41416f130c3e19ea351') in 0.0121945 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_idle_02.png using Guid(fdf006e30e82296cd5268c97868b72ff) (TextureImporter) -> (artifact id: 'b279ec6c4f6a0bcd3eb3a63121c3b693') in 0.0123272 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_05.png using Guid(1e47a84415eae49e06704c1f51901686) (TextureImporter) -> (artifact id: '441f95fdfa04ce6887044cb9d25bf76e') in 0.0196803 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_die_06.png using Guid(3e9012dc01184c9ed15e4c8bfde7485b) (TextureImporter) -> (artifact id: 'b2eef313eb680f81b62dc02a09ee8549') in 0.0269432 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_07.png using Guid(9eed5390865b17f83017ab1d8f64cf12) (TextureImporter) -> (artifact id: 'a3b0136010b778a4351d566da4449d1b') in 0.0121948 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_hurt_04.png using Guid(ae4d5204aa2ce808bde09ab2c48a2d6d) (TextureImporter) -> (artifact id: 'c064bb871aa82459520511a18f748dd7') in 0.0255617 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_Projectile.png using Guid(de71d118ab9725d4e40df0fdd94affec) (TextureImporter) -> (artifact id: '99177b7011b6508b40994395d89e3a04') in 0.0106639 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_00.png using Guid(ee5590b198c7577ee1a3e1b38683c7bf) (TextureImporter) -> (artifact id: 'f4b5a289589da8a360f613fefb57c68e') in 0.0116024 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_hurt_05.png using Guid(ee0f70cceb2f73aaf53cb538952135e6) (TextureImporter) -> (artifact id: 'e0ea493bed5a5d978bd5725681c0db20') in 0.0284988 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_attack_02.png using Guid(fef07314f7d56f39f37bbf567e46e0db) (TextureImporter) -> (artifact id: '8ab0b3b704f8e7e2d2aa52d2eb9eb49e') in 0.0118697 seconds
+Start importing Assets/Resources/Slimes/Acid/AcidSlime_bounce_00.png using Guid(0fa2a12d72b12fdaf9d651c50b5a2513) (TextureImporter) -> (artifact id: '340f31a21c77b4b9637f3aeb37b9cccf') in 0.0218204 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_bounce_02.png using Guid(0f4f4012d0d5abf53246b4b9d1850b44) (TextureImporter) -> (artifact id: '482e7c3c5000a9845b4da0804cbbc50e') in 0.010727 seconds
+Start importing Assets/Art/Slimes/Acid/AcidSlime_attack_02.png using Guid(7f15f891e6b7df63226994301be6e1f8) (TextureImporter) -> (artifact id: '66bc2695b74d6964fc6cebfeebd272f9') in 0.0109471 seconds
+Start importing Assets/Prefabs/Slimes/AcidSlime.prefab using Guid(c9e6c8e0935d44168a7f6ac23a86d0b4) (PrefabImporter)Problem detected while importing the Prefab file: 'Assets/Prefabs/Slimes/AcidSlime.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Component (Transform) has a broken GameObject reference. Fixing.
+ -> (artifact id: 'ae77d477725e1471bf0e3a8572275270') in 0.0272903 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=f3d32453e05b5114e8104d43bfd26fc7): Total: 66.559 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=85 (actual=85, local cache=0, cache server=0)
+		Asset DB Process Time: managed=258 ms, native=18651 ms
+		Asset DB Callback time: managed=887 ms, native=456 ms
+		Scripting: domain reloads=1, domain reload time=2783 ms, compile time=43226 ms, other=294 ms
+		Project Asset Count: scripts=1505, non-scripts=3353
+		Asset File Changes: new=87, changed=88, moved=0, deleted=2
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.003ms
+	InvokePackagesCallback: 415.125ms
+	ApplyChangesToAssetFolders: 2.086ms
+	Scan: 3451.036ms
+	OnSourceAssetsModified: 5.255ms
+	CategorizeAssetsWithTransientArtifact: 383.794ms
+	ProcessAssetsWithTransientArtifactChanges: 246.986ms
+	UnregisterDeletedAssets: 0.003ms
+	CategorizeAssets: 193.743ms
+	ImportOutOfDateAssets: 13651.052ms (-31447.121ms without children)
+		ImportManagerImport: 1842.807ms (12.585ms without children)
+			ImportInProcess: 1829.298ms
+			UpdateCategorizedAssets: 0.925ms
+		CompileScripts: 43226.363ms
+		ReloadNativeAssets: 0.104ms
+		UnloadImportedAssets: 2.241ms
+		ReloadImportedAssets: 0.028ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.858ms
+		InitializingProgressBar: 0.026ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.003ms
+		OnDemandSchedulerStart: 23.742ms
+	PostProcessAllAssets: 911.107ms
+	Hotreload: 18.919ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.004ms
+	UnloadStreamsBegin: 24.224ms
+	PersistCurrentRevisions: 1.789ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 8.829ms
+	Untracked: 47253.715ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Scanning for USB devices : 3.773ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PROYECTO_GAME_FINAL
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6891 unused Assets / (4.4 MB). Loaded Objects now: 7724.
+Memory consumption went from 219.3 MB to 214.9 MB.
+Total: 223.766000 ms (FindLiveObjects: 1.236000 ms CreateObjectMapping: 1.930400 ms MarkObjects: 214.173800 ms  DeleteObjects: 6.423400 ms)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-pizar-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-pizar channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

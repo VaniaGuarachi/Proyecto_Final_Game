@@ -44,6 +44,18 @@ public class SlimeCaptureSystem : MonoBehaviour
 
     private void Capture(SlimeController slime)
     {
+        FireSlimeAI fireSlime = slime.GetComponent<FireSlimeAI>();
+        if (fireSlime != null && fireSlime.ReactToCaptureAttempt(transform))
+        {
+            return;
+        }
+
+        AcidSlimeAI acidSlime = slime.GetComponent<AcidSlimeAI>();
+        if (acidSlime != null && acidSlime.ReactToCaptureAttempt(transform))
+        {
+            return;
+        }
+
         slime.gameObject.SetActive(false);
     }
 
