@@ -1,0 +1,301 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         ÍNDICE MAESTRO: TIENDA DE SLIMES                   ║
+║                   Aquí encuentras todo lo que necesitas                    ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+COMIENZA AQUÍ:
+══════════════
+
+Si es tu primera vez:
+  1. Lee: RESUMEN_RAPIDO.txt ← ⭐ EMPIEZA AQUÍ
+  2. Lee: GUIA_TIENDA_SLIMES.txt (explicación paso a paso)
+  3. Sigue: CHECKLIST_TIENDA.txt (mientras trabajas en Unity)
+
+Si necesitas ayuda rápida:
+  1. Ve: SOLUCION_PROBLEMAS.txt
+  2. Busca tu problema en la sección
+  3. Sigue la solución
+
+Si quieres entender todo:
+  1. Lee: MAPA_MENTAL_TIENDA.txt (arquitectura completa)
+  2. Lee: REFERENCIA_SCRIPTS.txt (qué hace cada script)
+  3. Estudia el código en los scripts
+
+═════════════════════════════════════════════════════════════════════════════
+
+DOCUMENTOS EN LA CARPETA RAÍZ:
+══════════════════════════════
+
+📄 RESUMEN_RAPIDO.txt
+   └─ Lo más importante en 5 minutos
+   └─ Para: Usuarios que quieren ir al grano
+   └─ Contiene: Tareas rápidas, cheat sheet
+
+📄 GUIA_TIENDA_SLIMES.txt
+   └─ Explicación paso a paso completa
+   └─ Para: Configurar la tienda en Unity
+   └─ Contiene: Instrucciones detalladas por pasos
+
+📄 CHECKLIST_TIENDA.txt
+   └─ Lista de verificación para no olvidar nada
+   └─ Para: Seguir mientras trabajas en Unity
+   └─ Contiene: Todos los pasos numerados con checkboxes
+
+📄 MAPA_MENTAL_TIENDA.txt
+   └─ Arquitectura y diagramas del sistema
+   └─ Para: Entender cómo funciona todo
+   └─ Contiene: Diagramas, flujos, jerarquía, clases
+
+📄 REFERENCIA_SCRIPTS.txt
+   └─ Documentación de cada script
+   └─ Para: Entender qué hace cada archivo
+   └─ Contiene: Explicación de funciones y flujos
+
+📄 GUIA_CREAR_SPRITES.txt
+   └─ Cómo crear o encontrar las imágenes
+   └─ Para: Generar los sprites de los slimes
+   └─ Contiene: Opciones (IA, DIY, descargar)
+
+📄 SOLUCION_PROBLEMAS.txt
+   └─ FAQ y solución de errores comunes
+   └─ Para: Cuando algo no funciona
+   └─ Contiene: 12 problemas típicos y soluciones
+
+═════════════════════════════════════════════════════════════════════════════
+
+SCRIPTS CREADOS (EN ASSETS/SCRIPTS/):
+═════════════════════════════════════
+
+📄 Assets/Scripts/Systems/SlimeShopData.cs
+   └─ Guarda datos de los slimes (nombre, precio, imagen)
+   └─ Funciones: GetAvailableSlimes(), CanBuySlime(), BuySlime()
+   └─ NO TOQUES - Ya está completo
+
+📄 Assets/Scripts/UI/ShopUI.cs
+   └─ Controla la pantalla de la tienda
+   └─ Funciones: OpenShop(), CloseShop(), CreateSlimeButtons()
+   └─ NO TOQUES - Ya está completo
+
+📄 Assets/Scripts/Systems/ShopTrigger.cs
+   └─ Detecta cuando presionas "T" en la zona de tienda
+   └─ Funciones: OnTriggerEnter2D(), Update()
+   └─ NO TOQUES - Ya está completo
+
+📄 Assets/Scripts/Systems/SlimeInventoryManager.cs (OPCIONAL)
+   └─ Gestiona qué slimes has comprado (opcional)
+   └─ Funciones: AddSlimeToInventory(), GetSlimeQuantity()
+   └─ SOLO SI quieres un inventario permanente
+
+═════════════════════════════════════════════════════════════════════════════
+
+ACCIONES QUE DEBES HACER EN UNITY:
+══════════════════════════════════
+
+CONFIGURACIÓN EN MAINSCENE:
+  ├─ Crear zona de tienda (ShopArea con collider)
+  ├─ Copiar Canvas de Tienda.unity
+  ├─ Asignar referencias en ShopTrigger
+  └─ Asignar referencias en ShopUI
+
+CONFIGURACIÓN EN TIENDA.UNITY (opcional):
+  ├─ Crear ShopManager con SlimeShopData
+  ├─ Configurar los 4 slimes
+  └─ Asignar las imágenes
+
+IMPORTAR SPRITES:
+  ├─ Copiar 4 PNG a Assets/Sprites/
+  ├─ Cambiar Texture Type a "Sprite (2D and UI)"
+  ├─ Aplicar cambios
+  └─ Asignar en SlimeShopData
+
+═════════════════════════════════════════════════════════════════════════════
+
+FLUJO DE LECTURA RECOMENDADO:
+═════════════════════════════
+
+NIVEL 1 (Usuarios apurados):
+  1. RESUMEN_RAPIDO.txt (5 min)
+  2. Empieza a trabajar en Unity
+
+NIVEL 2 (Usuarios normales):
+  1. RESUMEN_RAPIDO.txt (5 min)
+  2. GUIA_TIENDA_SLIMES.txt (15 min, lectura)
+  3. CHECKLIST_TIENDA.txt (30 min, mientras trabajas)
+  4. RESUELVE ERRORES con SOLUCION_PROBLEMAS.txt
+
+NIVEL 3 (Usuarios que quieren entender todo):
+  1. MAPA_MENTAL_TIENDA.txt (entender arquitectura)
+  2. REFERENCIA_SCRIPTS.txt (entender cada script)
+  3. Lee el código en los scripts
+  4. GUIA_TIENDA_SLIMES.txt (implementa)
+  5. CHECKLIST_TIENDA.txt (verifica)
+
+═════════════════════════════════════════════════════════════════════════════
+
+BÚSQUEDA RÁPIDA:
+════════════════
+
+¿CÓMO HAGO...?
+
+"...crear la tienda?"
+  → GUIA_TIENDA_SLIMES.txt
+
+"...agregar slimes?"
+  → CHECKLIST_TIENDA.txt (PASO 9)
+
+"...crear sprites?"
+  → GUIA_CREAR_SPRITES.txt
+
+"...que funcione el botón de compra?"
+  → SOLUCION_PROBLEMAS.txt (PROBLEMA 3)
+
+"...que se vea bien en la pantalla?"
+  → SOLUCION_PROBLEMAS.txt (PROBLEMA 9)
+
+"...que entienda toda la arquitectura?"
+  → MAPA_MENTAL_TIENDA.txt
+
+"...qué hace cada script?"
+  → REFERENCIA_SCRIPTS.txt
+
+"...me aparece un error específico?"
+  → SOLUCION_PROBLEMAS.txt
+
+═════════════════════════════════════════════════════════════════════════════
+
+ESTRUCTURA VISUAL:
+═══════════════════
+
+PROYECTO
+  ├─ Assets/
+  │  ├─ Scripts/
+  │  │  ├─ Systems/
+  │  │  │  ├─ SlimeShopData.cs ⭐
+  │  │  │  ├─ ShopTrigger.cs ⭐
+  │  │  │  └─ SlimeInventoryManager.cs (opcional)
+  │  │  ├─ UI/
+  │  │  │  └─ ShopUI.cs ⭐
+  │  │  └─ Managers/
+  │  │     ├─ GameManager.cs (existente)
+  │  │     └─ ResourceManager.cs (existente)
+  │  ├─ Sprites/
+  │  │  ├─ SlimeRosa.png (por crear)
+  │  │  ├─ SlimePlanta.png (por crear)
+  │  │  ├─ SlimeFuego.png (por crear)
+  │  │  └─ SlimeToxico.png (por crear)
+  │  ├─ Prefabs/
+  │  │  └─ UI/
+  │  │     └─ SlimeButtonPrefab.prefab (por crear)
+  │  └─ Scenes/
+  │     ├─ MainScene.unity (por configurar)
+  │     └─ Tienda.unity (por configurar)
+  │
+  └─ Documentación en la raíz:
+     ├─ RESUMEN_RAPIDO.txt ⭐ EMPIEZA AQUÍ
+     ├─ GUIA_TIENDA_SLIMES.txt
+     ├─ CHECKLIST_TIENDA.txt
+     ├─ MAPA_MENTAL_TIENDA.txt
+     ├─ REFERENCIA_SCRIPTS.txt
+     ├─ GUIA_CREAR_SPRITES.txt
+     ├─ SOLUCION_PROBLEMAS.txt
+     └─ INDICE_MAESTRO.txt (este archivo)
+
+═════════════════════════════════════════════════════════════════════════════
+
+EXPLICACIÓN SIMPLE DE LOS SCRIPTS:
+════════════════════════════════════
+
+SlimeShopData.cs (Vendedor)
+  └─ Sabe qué slimes hay, precios, descripciones
+  └─ Cuando intentas comprar, verifica si puedes
+  └─ Si puedes, te cobra y retorna true
+
+ShopUI.cs (Tienda)
+  └─ Es la pantalla que ves
+  └─ Muestra los botones de los slimes
+  └─ Muestra la información seleccionada
+  └─ Abre y cierra cuando lo dices
+
+ShopTrigger.cs (Puerta)
+  └─ Detecta cuando entras al área
+  └─ Escucha si presionas "T"
+  └─ Si presionas T estando adentro, abre la tienda
+
+═════════════════════════════════════════════════════════════════════════════
+
+PREGUNTAS FRECUENTES:
+═════════════════════
+
+P: ¿Cuánto tiempo toma implementar esto?
+R: 1-2 horas si sigues el checklist paso a paso
+
+P: ¿Necesito programar?
+R: No, todo está hecho. Solo necesitas configurar en Unity
+
+P: ¿Puedo modificar los precios?
+R: Sí, en SlimeShopData en el Inspector
+
+P: ¿Puedo agregar más slimes?
+R: Sí, aumenta el "Size" en SlimeShopData
+
+P: ¿Puedo cambiar la tecla T a otra?
+R: Sí, en ShopTrigger, el campo "Shop Key"
+
+P: ¿Cómo agrego sonidos?
+R: Futuro tutorial, por ahora no está implementado
+
+P: ¿Dónde aparecen los slimes después de comprar?
+R: Ese es un futuro sistema que se implementará después
+
+═════════════════════════════════════════════════════════════════════════════
+
+CHECKPOINTS (Cómo saber que va bien):
+══════════════════════════════════════
+
+✓ CHECKPOINT 1: Presionas Play
+  └─ Debería compilar sin errores
+
+✓ CHECKPOINT 2: Presionas T afuera de la tienda
+  └─ No debería hacer nada
+
+✓ CHECKPOINT 3: Entras a la zona de tienda y presionas T
+  └─ Debería abrirse el panel
+
+✓ CHECKPOINT 4: En la tienda haces click en los slimes
+  └─ Debería cambiar la información
+
+✓ CHECKPOINT 5: Compras un slime
+  └─ Deberían bajar los cristales
+
+✓ CHECKPOINT 6: Presionas Cerrar
+  └─ La tienda debería desaparecer y el juego continúa
+
+═════════════════════════════════════════════════════════════════════════════
+
+PRÓXIMOS PASOS (después de que la tienda funcione):
+═════════════════════════════════════════════════════
+
+1. Sistema de inventario visual
+2. Sonidos y efectos
+3. Animaciones
+4. Más tipos de slimes
+5. Sistema de misiones
+
+Para esos pasos, habrá documentación similar.
+
+═════════════════════════════════════════════════════════════════════════════
+
+¿NECESITAS AYUDA?
+═════════════════
+
+1. Revisa SOLUCION_PROBLEMAS.txt
+2. Verifica que seguiste el CHECKLIST_TIENDA.txt
+3. Compara con MAPA_MENTAL_TIENDA.txt
+4. Lee REFERENCIA_SCRIPTS.txt para entender los datos
+
+═════════════════════════════════════════════════════════════════════════════
+
+ÚLTIMA ACTUALIZACIÓN: 7 de Junio, 2026
+Versión: 1.0 - Sistema Completo
+
+═════════════════════════════════════════════════════════════════════════════

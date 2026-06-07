@@ -1,0 +1,301 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   GUÍA COMPLETA: TIENDA DE SLIMES EN UNITY                  ║
+║                    Explicado como si fueras un niño (8 años)                ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+TABLA DE CONTENIDOS:
+1. Qué creamos (los archivos)
+2. Cómo configurar en Unity
+3. Paso a paso visual
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PARTE 1: LOS ARCHIVOS QUE CREAMOS
+═════════════════════════════════════
+
+Creamos 3 scripts de C#:
+
+📄 SlimeShopData.cs
+   ↳ Localización: Assets/Scripts/Systems/
+   ↳ ¿Qué hace?: Guarda la información de cada slime (nombre, precio, imagen)
+   ↳ Como si fuera: Una lista de precios de una tienda real
+
+📄 ShopUI.cs
+   ↳ Localización: Assets/Scripts/UI/
+   ↳ ¿Qué hace?: Controla lo que ves en la pantalla (botones, precios, etc)
+   ↳ Como si fuera: El vendedor de la tienda que te muestra lo que hay
+
+📄 ShopTrigger.cs
+   ↳ Localización: Assets/Scripts/Systems/
+   ↳ ¿Qué hace?: Detecta cuando presionas "T" si estás en la tienda
+   ↳ Como si fuera: La campana que suena cuando entras a la tienda
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PARTE 2: CONFIGURACIÓN EN UNITY (¡LO MÁS IMPORTANTE!)
+═════════════════════════════════════════════════════
+
+PASO A: ABRIR LA ESCENA TIENDA
+───────────────────────────────
+
+1. En Unity, en el panel PROJECT (abajo izquierda):
+   📁 Assets → 📁 Scenes → 🎬 Tienda.unity (DOBLE CLICK)
+
+La escena debe estar vacía (es lo normal, la creamos así).
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO B: CREAR EL CANVAS (El "lienzo" donde irá todo)
+──────────────────────────────────────────────────
+
+1. Haz CLICK DERECHO en la JERARQUÍA (panel izquierdo vacío)
+2. Selecciona: UI → Canvas
+
+Verás que aparece un Canvas en la jerarquía.
+
+3. RENOMBRALO a "ShopCanvas" (click derecho → Rename)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO C: CREAR EL PANEL PRINCIPAL
+──────────────────────────────────
+
+1. SELECCIONA ShopCanvas en la jerarquía
+2. Haz CLICK DERECHO → UI → Panel
+3. Renómbralo a "ShopPanel"
+4. En el INSPECTOR (derecha), busca "Rect Transform"
+5. Configura el tamaño:
+   - Width (Ancho): 800
+   - Height (Alto): 600
+   - Posición X: 0, Y: 0
+
+ESTO CREA EL PANEL PRINCIPAL DONDE IRÁ TODO
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO D: CREAR LOS PANELES SECUNDARIOS
+───────────────────────────────────────
+
+DENTRO DE ShopPanel, vamos a crear:
+
+PANEL 1: PANEL SUPERIOR (para el título)
+├─ Click DERECHO en ShopPanel → UI → Panel
+├─ Renombrar a: "HeaderPanel"
+└─ Agregar un TEXT:
+   ├─ Click DERECHO en HeaderPanel → UI → TextMeshPro - Text
+   ├─ Renombrar a: "TitleText"
+   ├─ En el INSPECTOR, en "Text Input", escribir: "TIENDA DE SLIMES"
+   └─ En "Rect Transform", Height: 100
+
+PANEL 2: PANEL DE SLIMES (botones con los slimes disponibles)
+├─ Click DERECHO en ShopPanel → UI → Scroll View
+├─ Renombrar a: "SlimesPanel"
+├─ Desmarcar "Horizontal" en el INSPECTOR (scrolling solo vertical)
+└─ Dentro de SlimesPanel, encontrarás "Viewport" → "Content"
+   └─ Renombrar "Content" a: "SlimesContainer"
+
+PANEL 3: PANEL DE DETALLES (información del slime seleccionado)
+├─ Click DERECHO en ShopPanel → UI → Panel
+├─ Renombrar a: "DetailsPanel"
+├─ En "Rect Transform", Width: 300, Height: 500
+├─ Agregar DENTRO:
+│  ├─ IMAGE (para mostrar el slime)
+│  │  ├─ Click DERECHO en DetailsPanel → UI → Image
+│  │  ├─ Renombrar a: "SlimeImage"
+│  │  └─ Rect Transform: Width 250, Height 250
+│  ├─ TEXT (nombre del slime)
+│  │  ├─ UI → TextMeshPro - Text
+│  │  ├─ Renombrar: "SlimeNameText"
+│  │  ├─ Text Input: "Nombre del Slime"
+│  ├─ TEXT (precio)
+│  │  ├─ UI → TextMeshPro - Text
+│  │  ├─ Renombrar: "PriceText"
+│  │  ├─ Text Input: "Precio: 0"
+│  ├─ TEXT (descripción)
+│  │  ├─ UI → TextMeshPro - Text
+│  │  ├─ Renombrar: "DescriptionText"
+│  │  ├─ Text Input: "Descripción"
+│  ├─ BUTTON (comprar)
+│  │  ├─ UI → Button
+│  │  ├─ Renombrar: "BuyButton"
+│  │  └─ Text: "COMPRAR"
+│  └─ TEXT (cristales)
+│     ├─ UI → TextMeshPro - Text
+│     ├─ Renombrar: "CrystalsText"
+│     └─ Text Input: "Cristales: 0"
+
+PANEL 4: BOTÓN CERRAR
+├─ Click DERECHO en ShopPanel → UI → Button
+├─ Renombrar a: "CloseButton"
+├─ Cambiar texto a: "CERRAR"
+├─ En el INSPECTOR, Position X: 350, Y: -280
+└─ Rect Transform: Width 150, Height 50
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO E: ASIGNAR EL SCRIPT ShopUI.cs
+────────────────────────────────────
+
+1. SELECCIONA ShopCanvas en la jerarquía
+2. En el INSPECTOR, click en "Add Component"
+3. Escribe: "ShopUI" y presiona ENTER
+4. Ahora en el INSPECTOR aparecerán campos para rellenar.
+
+RELLENA LOS CAMPOS CON:
+├─ Shop Panel → Arrastra "ShopPanel" desde la jerarquía
+├─ Slime Buttons Container → Arrastra "SlimesContainer" desde la jerarquía
+├─ Slime Display Image → Arrastra "SlimeImage" desde la jerarquía
+├─ Slime Name Text → Arrastra "SlimeNameText" desde la jerarquía
+├─ Price Text → Arrastra "PriceText" desde la jerarquía
+├─ Description Text → Arrastra "DescriptionText" desde la jerarquía
+├─ Buy Button → Arrastra "BuyButton" desde la jerarquía
+├─ Crystals Text → Arrastra "CrystalsText" desde la jerarquía
+└─ Close Button → Arrastra "CloseButton" desde la jerarquía
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO F: CREAR EL PREFAB DEL BOTÓN DE SLIME
+──────────────────────────────────────────
+
+En la JERARQUÍA, con ShopCanvas seleccionado:
+
+1. UI → Button
+2. Renombrar a: "SlimeButtonTemplate"
+3. En Rect Transform: Width 80, Height 100
+4. Adentro de "SlimeButtonTemplate", selecciona "Text (TMP)"
+5. Renombrar a: "ButtonLabel"
+6. Borra el componente "Text (TMP)" del botón (queremos solo imagen)
+7. Agrega una IMAGE al botón:
+   ├─ Click DERECHO en SlimeButtonTemplate → UI → Image
+   ├─ Renombrar a: "SlimeIcon"
+   └─ Rect Transform: Width 80, Height 80
+
+8. AHORA CREA EL PREFAB:
+   ├─ Arrastra "SlimeButtonTemplate" desde la JERARQUÍA
+   ├─ Hasta la carpeta: Assets/Prefabs/UI/
+   ├─ Suelta para crear el prefab
+   └─ BORRA "SlimeButtonTemplate" de la escena
+
+9. Asigna el prefab a ShopUI:
+   ├─ SELECCIONA ShopCanvas
+   ├─ En ShopUI, el campo "Slime Button Prefab"
+   ├─ Arrastra el prefab que acabas de crear
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO G: CREAR EL GAMEOBJECT "ShopManager"
+────────────────────────────────────────
+
+1. Click DERECHO en la JERARQUÍA → Create Empty
+2. Renombrar a: "ShopManager"
+3. En el INSPECTOR, click "Add Component"
+4. Escribe: "SlimeShopData" y presiona ENTER
+
+AHORA DEBES AGREGAR LOS 4 SLIMES:
+
+5. En el INSPECTOR, verás un campo "Available Slimes" con "Size 0"
+6. Cambia el size a: 4
+7. Ahora aparecerán 4 campos. RELLENA CADA UNO:
+
+SLIME 1 (ROSA):
+├─ Slime Name: "Slime Rosa"
+├─ Slime Type: "Rosa"
+├─ Price: 300
+├─ Description: "Un slime adorable de color rosa"
+└─ Slime Icon: [Aquí va la imagen - la asignaremos después]
+
+SLIME 2 (PLANTA):
+├─ Slime Name: "Slime Planta"
+├─ Slime Type: "Planta"
+├─ Price: 250
+├─ Description: "Un slime verde con hojas, de naturaleza"
+└─ Slime Icon: [Aquí va la imagen]
+
+SLIME 3 (FUEGO):
+├─ Slime Name: "Slime Fuego"
+├─ Slime Type: "Fuego"
+├─ Price: 400
+├─ Description: "Un slime ardiente y poderoso"
+└─ Slime Icon: [Aquí va la imagen]
+
+SLIME 4 (TOXICO):
+├─ Slime Name: "Slime Toxico"
+├─ Slime Type: "Toxico"
+├─ Price: 350
+├─ Description: "Un slime peligroso y venenoso"
+└─ Slime Icon: [Aquí va la imagen]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO H: CREAR LA ZONA DE TIENDA (En MainScene)
+───────────────────────────────────────────────
+
+1. Abre la escena MainScene (donde está tu personaje)
+2. Click DERECHO en la JERARQUÍA → Create Empty
+3. Renombrar a: "ShopArea"
+4. Posiciona en la zona donde debe estar la tienda
+5. En el INSPECTOR:
+   ├─ Add Component → BoxCollider2D
+   ├─ Marca "Is Trigger" (checkbox)
+   ├─ Ajusta el tamaño para que sea el área de la tienda
+   ├─ Add Component → ShopTrigger
+   └─ En ShopTrigger:
+      └─ Shop UI: [Necesitas una referencia a ShopUI]
+
+   PROBLEMA: ShopUI está en la escena Tienda, no en MainScene
+   SOLUCIÓN: 
+   1. Crea un Canvas con ShopUI en CADA escena, O
+   2. Usa DontDestroyOnLoad para mantenerlo entre escenas
+
+   FORMA MÁS FÁCIL:
+   ├─ Copia todo el Canvas (ShopCanvas con ShopUI) de la escena Tienda
+   ├─ Pégalo en MainScene también
+   └─ En ShopTrigger, asigna la referencia al ShopUI de MainScene
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO I: AGREGAR LOS SPRITES
+──────────────────────────
+
+Necesitas crear o importar 4 imágenes PNG (sprites) de tus slimes.
+
+PARA AGREGAR LAS IMÁGENES:
+1. Coloca los archivos .png en: Assets/Sprites/
+2. Selecciona cada archivo en el PROJECT
+3. En el INSPECTOR, cambia:
+   ├─ Texture Type: Sprite (2D and UI)
+   ├─ Sprite Mode: Single
+   └─ Click "Apply"
+
+PARA ASIGNAR LAS IMÁGENES AL SlimeShopData:
+1. SELECCIONA ShopManager
+2. En el INSPECTOR, en SlimeShopData
+3. Para cada Slime, arrastra la imagen correspondiente al campo "Slime Icon"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PASO J: HACER QUE GAMEMANAGER SEA PERSISTENTE (IMPORTANTE)
+──────────────────────────────────────────────────────────
+
+Para que no pierda referencias entre escenas, necesitas que:
+
+1. En el script GameManager.cs, busca Awake()
+2. Agrega al final: 
+   DontDestroyOnLoad(gameObject);
+
+3. Lo mismo para ResourceManager.cs y SlimeShopData.cs
+
+ESTO ASEGURA QUE LOS DATOS SE MANTENGAN ENTRE ESCENAS
+
+═══════════════════════════════════════════════════════════════════════════════
+
+¡LISTO! AHORA CUANDO:
+
+✓ Presiones "T" en la zona de la tienda
+✓ Se abrirá el panel de la tienda
+✓ Podrás ver los 4 slimes disponibles
+✓ Seleccionar cada uno para ver su información
+✓ Comprar si tienes suficientes cristales
+✓ Cerrar la tienda con el botón CERRAR
+
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,3 @@
+Este archivo es un placeholder para el prefab
+En Unity, los prefabs no se crean por código, sino visualmente
+Lo crearemos en el paso de configuración de Unity

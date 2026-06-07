@@ -1,0 +1,21 @@
+SLIME ROSA (Rosa suave, amigable)
+Asset: Assets/Sprites/SlimeRosa.png
+
+SLIME PLANTA (Verde con hojas, naturaleza)
+Asset: Assets/Sprites/SlimePlanta.png
+
+SLIME FUEGO (Naranja/Rojo, ardiente)
+Asset: Assets/Sprites/SlimeFuego.png
+
+SLIME TOXICO (Morado/Verde oscuro, peligroso)
+Asset: Assets/Sprites/SlimeToxico.png
+
+---
+
+Descripción de cada uno para que tengas en tu código:
+Estos sprites deben tener aproximadamente 200x200 píxeles para que se vean bien en la tienda.
+Los puedes crear en:
+- Aseprite
+- Photoshop
+- GIMP
+- O incluso paginas online como: https://www.pixilart.com/

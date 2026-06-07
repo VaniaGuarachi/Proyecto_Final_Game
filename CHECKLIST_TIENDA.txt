@@ -1,0 +1,264 @@
+═════════════════════════════════════════════════════════════════════════════════
+                     CHECKLIST: TIENDA DE SLIMES - PASO A PASO
+═════════════════════════════════════════════════════════════════════════════════
+
+✓ = Hecho
+○ = Por hacer
+
+CREACIÓN DE SCRIPTS (YA ESTÁ HECHO)
+════════════════════════════════════
+✓ SlimeShopData.cs creado en Assets/Scripts/Systems/
+✓ ShopUI.cs creado en Assets/Scripts/UI/
+✓ ShopTrigger.cs creado en Assets/Scripts/Systems/
+
+DOCUMENTACIÓN (YA ESTÁ HECHO)
+═════════════════════════════
+✓ GUIA_TIENDA_SLIMES.txt creado
+✓ REFERENCIA_SCRIPTS.txt creado
+
+CONFIGURACIÓN EN UNITY (DEBES HACERLO TÚ)
+═══════════════════════════════════════════
+
+PASO 1: PREPARAR LA ESCENA TIENDA
+────────────────────────────────
+○ Abre la escena: Assets/Scenes/Tienda.unity
+○ Crea un Canvas
+  ○ Click derecho en la jerarquía → UI → Canvas
+  ○ Renombra a: "ShopCanvas"
+
+PASO 2: CREAR EL PANEL PRINCIPAL
+──────────────────────────────────
+○ Click derecho en ShopCanvas → UI → Panel
+○ Renombra a: "ShopPanel"
+○ Configura Rect Transform:
+  ○ Width: 800
+  ○ Height: 600
+  ○ Pos X: 0, Pos Y: 0
+
+PASO 3: CREAR PANEL SUPERIOR (TÍTULO)
+──────────────────────────────────────
+○ Click derecho en ShopPanel → UI → Panel
+○ Renombra a: "HeaderPanel"
+○ Rect Transform: Height: 100
+○ Click derecho en HeaderPanel → UI → TextMeshPro - Text
+○ Renombra a: "TitleText"
+○ En Text Input, escribe: "TIENDA DE SLIMES"
+
+PASO 4: CREAR PANEL DE SLIMES (SCROLL)
+───────────────────────────────────────
+○ Click derecho en ShopPanel → UI → Scroll View
+○ Renombra a: "SlimesPanel"
+○ Desmarca "Horizontal"
+○ Renombra el "Content" dentro a: "SlimesContainer"
+○ Rect Transform: Width: 150, Height: 500
+
+PASO 5: CREAR PANEL DE DETALLES
+───────────────────────────────
+○ Click derecho en ShopPanel → UI → Panel
+○ Renombra a: "DetailsPanel"
+○ Rect Transform: Width: 400, Height: 500
+○ Pos X: 200, Pos Y: 0
+
+○ DENTRO de DetailsPanel, crea:
+  
+  ○ Image (del slime)
+    ○ Click derecho en DetailsPanel → UI → Image
+    ○ Renombra a: "SlimeImage"
+    ○ Rect Transform: Width: 250, Height: 250
+  
+  ○ Text (nombre)
+    ○ UI → TextMeshPro - Text
+    ○ Renombra a: "SlimeNameText"
+    ○ Text Input: "Nombre del Slime"
+    ○ Rect Transform: Pos Y: -130
+  
+  ○ Text (precio)
+    ○ UI → TextMeshPro - Text
+    ○ Renombra a: "PriceText"
+    ○ Text Input: "Precio: 0"
+    ○ Rect Transform: Pos Y: -180
+  
+  ○ Text (descripción)
+    ○ UI → TextMeshPro - Text
+    ○ Renombra a: "DescriptionText"
+    ○ Text Input: "Descripción"
+    ○ Rect Transform: Width: 350, Height: 100, Pos Y: -240
+  
+  ○ Button (Comprar)
+    ○ UI → Button
+    ○ Renombra a: "BuyButton"
+    ○ Text: "COMPRAR"
+    ○ Rect Transform: Width: 150, Height: 50, Pos Y: -380
+  
+  ○ Text (Cristales)
+    ○ UI → TextMeshPro - Text
+    ○ Renombra a: "CrystalsText"
+    ○ Text Input: "Cristales: 0"
+    ○ Rect Transform: Pos Y: 240
+
+PASO 6: CREAR BOTÓN CERRAR
+────────────────────────
+○ Click derecho en ShopPanel → UI → Button
+○ Renombra a: "CloseButton"
+○ Text: "CERRAR"
+○ Rect Transform: Width: 150, Height: 50, Pos X: 350, Pos Y: -520
+
+PASO 7: CREAR PREFAB DEL BOTÓN DE SLIME
+─────────────────────────────────────────
+○ Click derecho en ShopCanvas → UI → Button
+○ Renombra a: "SlimeButtonTemplate"
+○ Rect Transform: Width: 80, Height: 100
+○ Borra el componente "Text (TMP)" del botón
+○ Click derecho en SlimeButtonTemplate → UI → Image
+○ Renombra a: "SlimeIcon"
+○ Rect Transform: Width: 80, Height: 80
+○ Arrastra "SlimeButtonTemplate" a: Assets/Prefabs/UI/
+○ Borra "SlimeButtonTemplate" de la escena
+
+PASO 8: ASIGNAR SCRIPT ShopUI
+──────────────────────────────
+○ Selecciona ShopCanvas
+○ Add Component → ShopUI
+○ En el Inspector, arrastra y asigna:
+  ○ Shop Panel → ShopPanel
+  ○ Slime Buttons Container → SlimesContainer
+  ○ Slime Display Image → SlimeImage
+  ○ Slime Name Text → SlimeNameText
+  ○ Price Text → PriceText
+  ○ Description Text → DescriptionText
+  ○ Buy Button → BuyButton
+  ○ Crystals Text → CrystalsText
+  ○ Close Button → CloseButton
+  ○ Slime Button Prefab → [Arrastra el prefab que creaste]
+
+PASO 9: CREAR Y ASIGNAR SlimeShopData
+──────────────────────────────────────
+○ Click derecho en la jerarquía → Create Empty
+○ Renombra a: "ShopManager"
+○ Add Component → SlimeShopData
+○ En "Available Slimes", cambia Size a: 4
+○ RELLENA LOS 4 SLIMES:
+
+  SLIME 0 (ROSA):
+  ○ Slime Name: "Slime Rosa"
+  ○ Slime Type: "Rosa"
+  ○ Price: 300
+  ○ Description: "Un slime adorable de color rosa"
+  ○ Slime Icon: [Arrastra la imagen]
+  
+  SLIME 1 (PLANTA):
+  ○ Slime Name: "Slime Planta"
+  ○ Slime Type: "Planta"
+  ○ Price: 250
+  ○ Description: "Un slime verde con hojas"
+  ○ Slime Icon: [Arrastra la imagen]
+  
+  SLIME 2 (FUEGO):
+  ○ Slime Name: "Slime Fuego"
+  ○ Slime Type: "Fuego"
+  ○ Price: 400
+  ○ Description: "Un slime ardiente y poderoso"
+  ○ Slime Icon: [Arrastra la imagen]
+  
+  SLIME 3 (TOXICO):
+  ○ Slime Name: "Slime Toxico"
+  ○ Slime Type: "Toxico"
+  ○ Price: 350
+  ○ Description: "Un slime peligroso y venenoso"
+  ○ Slime Icon: [Arrastra la imagen]
+
+PASO 10: CREAR SPRITES
+───────────────────────
+○ Crea o descarga 4 imágenes PNG de tus slimes
+○ Coloca las imágenes en: Assets/Sprites/
+  ○ SlimeRosa.png
+  ○ SlimePlanta.png
+  ○ SlimeFuego.png
+  ○ SlimeToxico.png
+○ Para cada imagen:
+  ○ Selecciona en Project
+  ○ En Inspector: Texture Type → Sprite (2D and UI)
+  ○ Click "Apply"
+○ Arrastra cada imagen al campo "Slime Icon" correspondiente en SlimeShopData
+
+PASO 11: CREAR ZONA DE TIENDA EN MAINSCENE
+──────────────────────────────────────────
+○ Abre MainScene
+○ Click derecho en la jerarquía → Create Empty
+○ Renombra a: "ShopArea"
+○ Posiciona en la zona donde debe estar la tienda
+○ Add Component → BoxCollider2D
+○ Marca "Is Trigger" ✓
+○ Ajusta el tamaño del collider (Size)
+○ Add Component → ShopTrigger
+○ En ShopTrigger:
+  ○ Shop Key: T (por defecto, no cambies)
+  ○ Shop UI: [Debe haber un ShopUI en MainScene también]
+
+PASO 12: COPIAR CANVAS A MAINSCENE
+───────────────────────────────────
+○ Ve a la escena Tienda.unity
+○ Selecciona ShopCanvas en la jerarquía
+○ Ctrl+C (copiar)
+○ Ve a MainScene.unity
+○ Ctrl+V (pegar)
+○ En ShopArea, en ShopTrigger:
+  ○ Shop UI: [Arrastra el ShopUI de MainScene]
+
+PASO 13: HACER PERSISTENTES LOS MANAGERS
+─────────────────────────────────────────
+○ Abre el script GameManager.cs
+  ○ En la función Awake(), al final agrega:
+    ○ DontDestroyOnLoad(gameObject);
+  ○ Guarda el archivo
+
+○ Abre el script ResourceManager.cs
+  ○ En la función Awake(), al final agrega:
+    ○ DontDestroyOnLoad(gameObject);
+  ○ Guarda el archivo
+
+○ En la escena Tienda, agrega al ShopManager:
+  ○ Add Component → Script (nuevo)
+  ○ Agrégale esto:
+    
+    using UnityEngine;
+    public class PersistentManager : MonoBehaviour
+    {
+        private void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+PASO 14: VERIFICAR TODO
+──────────────────────
+○ Presiona PLAY en Unity
+○ Ve a MainScene
+○ Mueve tu personaje a la zona de la tienda
+○ Presiona "T"
+○ Debería abrirse la tienda
+○ Haz click en los slimes
+○ Intenta comprar uno
+○ Presiona CERRAR
+
+ERRORES COMUNES
+═══════════════
+
+❌ "ShopUI no aparece en el campo"
+→ Asegúrate de haber agregado el script ShopUI al Canvas
+
+❌ "El botón de comprar no funciona"
+→ Verifica que tengas el ResourceManager en la escena con cristales
+
+❌ "No veo las imágenes de los slimes"
+→ Importa las imágenes como Sprite (2D and UI)
+
+❌ "Cuando presiono T no se abre la tienda"
+→ Verifica que:
+  • El collider sea un Trigger
+  • El personaje tenga el tag "Player"
+  • El ShopTrigger esté asignado correctamente
+
+═════════════════════════════════════════════════════════════════════════════════
+¡LISTO! Cuando termines el checklist, ¡tu tienda estará funcionando!
+═════════════════════════════════════════════════════════════════════════════════

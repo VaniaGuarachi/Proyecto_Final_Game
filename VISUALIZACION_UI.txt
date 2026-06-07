@@ -1,0 +1,312 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                      VISUALIZACIÓN: CÓMO SE VE LA TIENDA                   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+LAYOUT DE LA TIENDA:
+═══════════════════
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│                        TIENDA DE SLIMES                                  │
+├─────────────────────────┬──────────────────────────────────────────────────┤
+│ Selecciona un Slime:   │                                                    │
+│                        │  ┌────────────────────────────┐                   │
+│ ┌───────┐  ┌───────┐   │  │    [IMAGEN SLIME]        │                   │
+│ │Slime  │  │Slime  │   │  │                            │                   │
+│ │ROSA ✓ │  │PLANTA │   │  │  Nombre: Slime Rosa      │                   │
+│ │ (300) │  │ (250) │   │  │                            │                   │
+│ └───────┘  └───────┘   │  │  Precio: 300 Cristales   │                   │
+│                        │  │                            │                   │
+│ ┌───────┐  ┌───────┐   │  │  Descripción:              │                   │
+│ │Slime  │  │Slime  │   │  │  "Un adorable slime rosa   │                   │
+│ │FUEGO  │  │TOXICO │   │  │   que rebota feliz"        │                   │
+│ │ (400) │  │ (350) │   │  │                            │                   │
+│ └───────┘  └───────┘   │  │                            │                   │
+│                        │  │  ┌──────────────────────┐  │                   │
+│                        │  │  │   COMPRAR            │  │                   │
+│                        │  │  └──────────────────────┘  │                   │
+│                        │  │                            │                   │
+│                        │  │  Cristales: 1200           │                   │
+│                        │  └────────────────────────────┘                   │
+├─────────────────────────┴──────────────────────────────────────────────────┤
+│                            [CERRAR]                                        │
+└──────────────────────────────────────────────────────────────────────────┘
+
+EXPLICACIÓN:
+──────────
+
+LADO IZQUIERDO (Seleccionar Slimes):
+  • 4 botones con los slimes
+  • El seleccionado tiene un ✓
+  • Se puede hacer scroll si hay más slimes
+
+LADO DERECHO (Información):
+  • Imagen grande del slime seleccionado
+  • Nombre del slime
+  • Precio
+  • Descripción
+  • Botón de compra (verde = puede comprar, rojo = no tiene dinero)
+  • Contador de cristales que tienes
+
+ABAJO:
+  • Botón "CERRAR" para salir de la tienda
+
+═════════════════════════════════════════════════════════════════════════════
+
+ASPECTO VISUAL EN DIFERENTES ESTADOS:
+═════════════════════════════════════
+
+ESTADO 1: TIENDA CERRADA
+────────────────────────
+
+[Pantalla de juego normal]
+┌─────────────────────┐
+│  Tu personaje       │
+│  caminando          │
+│  (pantalla normal)  │
+└─────────────────────┘
+
+ESTADO 2: ENTRAS A LA ZONA
+──────────────────────────
+
+[Mismo, pero con mensaje en la esquina]
+
+ENTRADAS A LA ZONA DE TIENDA → Presiona T para abrir
+
+ESTADO 3: PRESIONAS T
+──────────────────────
+
+[Se abre la tienda, el juego se pausa]
+
+┌────────────────────────────────┐
+│   LA TIENDA (como arriba)      │
+│   con los 4 slimes             │
+└────────────────────────────────┘
+
+ESTADO 4: SELECCIONAS UN SLIME
+───────────────────────────────
+
+[Panel derecho se actualiza]
+
+SLIME ROSA:
+├─ Imagen de un slime rosa
+├─ Nombre: "Slime Rosa"
+├─ Precio: 300 Cristales
+├─ Descripción: "Un adorable slime rosa..."
+└─ Botón COMPRAR (verde = tienes dinero)
+
+ESTADO 5: COMPRAS
+─────────────────
+
+✓ Se restan 300 cristales
+✓ Contador baja a 900
+✓ Aparece mensaje en la consola (debug)
+
+ESTADO 6: CIERRAS LA TIENDA
+──────────────────────────
+
+[Se oculta la tienda, vuelves al juego]
+
+El juego se reanuda, puedes seguir jugando.
+
+═════════════════════════════════════════════════════════════════════════════
+
+VISUALIZACIÓN DE LOS SPRITES:
+══════════════════════════════
+
+Cada sprite debe verse como:
+
+SLIME ROSA:
+───────────
+     🌸
+    /   \
+   |  👀  |
+    \   /
+     ~~~
+   
+   Color: Rosa suave (#FFB6D9)
+   Ojos: Negros grandes
+   Brillo: Triángulo blanco
+
+SLIME PLANTA:
+─────────────
+   ~~🌿~~
+    /   \
+   |  👀  |
+    \   /
+     ~~~
+   
+   Color: Verde (#90EE90)
+   Hojas: Arriba
+   Ojos: Negros grandes
+
+SLIME FUEGO:
+────────────
+   ~~~🔥~~
+    /   \
+   |  👀  |
+    \   /
+    /~~~\
+   
+   Color: Naranja/Rojo (#FF6347)
+   Forma: Dentada (como llamas)
+   Ojos: Negros grandes
+
+SLIME TOXICO:
+──────────────
+   ⚠️ ☠️ ⚠️
+    /   \
+   |  👀  |
+    \   /
+   ●●●●●
+   
+   Color: Morado/Verde oscuro (#9932CC)
+   Bubbles: Alrededor
+   Ojos: Negros grandes
+
+═════════════════════════════════════════════════════════════════════════════
+
+JERARQUÍA EN UNITY (Cómo se ve en el Inspector):
+═════════════════════════════════════════════
+
+Hierarchy (Panel izquierdo de Unity):
+
+📁 MainScene
+  📁 Player (tu personaje)
+  📁 Level (ambiente)
+  📁 ShopArea
+     📄 BoxCollider2D
+     📄 ShopTrigger.cs
+  📁 Managers
+     📄 GameManager
+     📄 ResourceManager
+     📁 ShopCanvas (Canvas)
+        📁 ShopPanel
+           📁 HeaderPanel
+           │  📄 TitleText ("TIENDA DE SLIMES")
+           📁 SlimesPanel (Scroll View)
+           │  📁 Viewport
+           │     📁 Content (SlimesContainer)
+           │        📄 SlimeButton 1
+           │        📄 SlimeButton 2
+           │        📄 SlimeButton 3
+           │        📄 SlimeButton 4
+           📁 DetailsPanel
+           │  📄 SlimeImage
+           │  📄 SlimeNameText
+           │  📄 PriceText
+           │  📄 DescriptionText
+           │  📄 BuyButton
+           │  📄 CrystalsText
+           📄 CloseButton
+
+═════════════════════════════════════════════════════════════════════════════
+
+CAMBIOS DE COLOR DEL BOTÓN DE COMPRA:
+══════════════════════════════════════
+
+VERDE (puedes comprar):
+┌──────────────────┐
+│   COMPRAR ✓      │
+└──────────────────┘
+
+ROJO (no tienes dinero):
+┌──────────────────┐
+│   COMPRAR ✗      │
+└──────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════
+
+FLUJO VISUAL DEL USUARIO:
+═════════════════════════
+
+1. El jugador corre
+   ↓
+   [Entra a la zona de tienda]
+   ↓
+   "¡Entraste a la tienda! Presiona T para abrir"
+   ↓
+   [Presiona T]
+   ↓
+   [Se abre el panel de la tienda, el juego se pausa]
+   ↓
+   [Ve los 4 slimes]
+   ↓
+   [Hace click en Slime Rosa]
+   ↓
+   [Se actualiza la información del lado derecho]
+   ↓
+   [Ve precio: 300, descripción, etc]
+   ↓
+   [Hace click en COMPRAR]
+   ↓
+   [Se restan 300 cristales]
+   ↓
+   [Contador de cristales cambia]
+   ↓
+   [Hace click en CERRAR]
+   ↓
+   [La tienda desaparece]
+   ↓
+   [El juego continúa]
+
+═════════════════════════════════════════════════════════════════════════════
+
+EJEMPLO DE TEXTO EN LA INTERFAZ:
+═════════════════════════════════
+
+TÍTULO:
+───────
+TIENDA DE SLIMES
+
+NOMBRES DE SLIMES:
+──────────────────
+Slime Rosa
+Slime Planta
+Slime Fuego
+Slime Toxico
+
+DESCRIPCIONES:
+───────────────
+"Un adorable slime rosa que rebota feliz"
+"Un slime verde con hojas, de naturaleza"
+"Un peligroso slime lleno de energía y fuego"
+"Un slime venenoso y fascinante"
+
+PRECIOS:
+────────
+Precio: 300 Cristales
+Precio: 250 Cristales
+Precio: 400 Cristales
+Precio: 350 Cristales
+
+BOTONES:
+────────
+[COMPRAR]
+[CERRAR]
+
+CONTADOR:
+─────────
+Cristales: 1200
+
+═════════════════════════════════════════════════════════════════════════════
+
+ANIMACIONES (Opcionales, futuros):
+═══════════════════════════════════
+
+Panel deslizándose desde la derecha:
+┌──────────────────────────┐
+│                          │ ← Entra desde aquí
+│      TIENDA              │
+│                          │
+└──────────────────────────┘
+
+Botones saltando cuando pasan el mouse:
+┌───────┐
+│Slime  │ ← Sube un poco
+│ROSA ✓ │
+└───────┘
+
+Efecto de compra exitosa:
+✨ ¡COMPRA EXITOSA! ✨
+
+═════════════════════════════════════════════════════════════════════════════

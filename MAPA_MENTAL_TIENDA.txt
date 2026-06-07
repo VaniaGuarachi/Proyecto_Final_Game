@@ -1,0 +1,266 @@
+═════════════════════════════════════════════════════════════════════════════════
+                        MAPA MENTAL: SISTEMA DE TIENDA
+═════════════════════════════════════════════════════════════════════════════════
+
+                              🎮 JUEGO
+                                 │
+                                 ├─ MainScene (escena principal)
+                                 │   │
+                                 │   ├─ 👤 Personaje
+                                 │   │   └─ Tiene Tag: "Player"
+                                 │   │
+                                 │   ├─ 💰 ResourceManager (con cristales)
+                                 │   │
+                                 │   ├─ 🎯 ShopArea (zona de tienda)
+                                 │   │   ├─ BoxCollider2D (Is Trigger)
+                                 │   │   └─ ShopTrigger.cs ← Detecta que presionaste T
+                                 │   │
+                                 │   └─ 🎨 ShopCanvas
+                                 │       └─ ShopUI.cs ← Controla la pantalla
+                                 │
+                                 └─ Tienda.unity (escena de tienda, para futuro)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+FLUJO DE DATOS: PASO A PASO
+═════════════════════════════
+
+Momento 1: JUGADOR ENTRA A LA TIENDA
+────────────────────────────────────
+
+Personaje
+   ↓ (entra en collider)
+ShopTrigger.OnTriggerEnter2D()
+   ├─ Verifica si es el jugador
+   ├─ playerInShopZone = true
+   └─ Mensaje: "¡Entraste a la tienda!"
+
+Momento 2: JUGADOR PRESIONA "T"
+───────────────────────────────
+
+Teclado: T presionado
+   ↓ (cada frame)
+ShopTrigger.Update()
+   ├─ Verifica: playerInShopZone == true?
+   ├─ Verifica: Input.GetKeyDown(T)?
+   └─ Si ambas son true → OpenShop()
+
+Momento 3: ABRE LA TIENDA
+─────────────────────────
+
+ShopUI.OpenShop()
+   ├─ shopPanel.SetActive(true) ← Muestra el panel
+   ├─ GameManager.PauseGame() ← Pausa el juego
+   ├─ UpdateCrystalsDisplay() ← Muestra cristales
+   └─ CreateSlimeButtons() ← Crea botones
+
+CreateSlimeButtons()
+   ├─ Obtiene datos de SlimeShopData
+   ├─ Para cada slime:
+   │  ├─ Crea un botón
+   │  ├─ Asigna imagen
+   │  ├─ Asigna nombre
+   │  └─ Asigna listener
+   └─ Selecciona el primer slime
+
+Resultado: ✓ Tienda abierta, puedes ver los 4 slimes
+
+Momento 4: JUGADOR HACE CLICK EN UN SLIME
+──────────────────────────────────────────
+
+Button → OnSlimeButtonClicked(index)
+   ├─ Obtiene datos del slime
+   ├─ Muestra imagen
+   ├─ Muestra nombre
+   ├─ Muestra precio
+   ├─ Muestra descripción
+   ├─ Cambia color del botón (seleccionado)
+   └─ Actualiza estado del botón COMPRAR
+
+Resultado: ✓ Ves la información del slime
+
+Momento 5: JUGADOR HACE CLICK EN "COMPRAR"
+──────────────────────────────────────────
+
+Button → OnBuyButtonClicked()
+   ├─ Obtiene el slime seleccionado
+   ├─ Llama a SlimeShopData.BuySlime(index)
+   │
+   └─ SlimeShopData.BuySlime()
+       ├─ Verifica: ¿Tengo dinero?
+       │  └─ Llama a CanBuySlime()
+       │
+       ├─ Si tengo dinero:
+       │  ├─ Llama a ResourceManager.SpendResource("Cristales", precio)
+       │  ├─ Cristales bajan
+       │  ├─ Retorna true
+       │  └─ ShopUI recibe true
+       │
+       └─ Si NO tengo dinero:
+           ├─ Retorna false
+           └─ ShopUI recibe false
+
+ShopUI.OnBuyButtonClicked()
+   ├─ Si compra fue exitosa:
+   │  ├─ Debug.Log("¡Compraste X!")
+   │  └─ Actualiza pantalla
+   │
+   └─ UpdateCrystalsDisplay()
+       ├─ Obtiene cristales actuales
+       ├─ Actualiza el texto
+       └─ Actualiza botón COMPRAR (habilitado/deshabilitado)
+
+Resultado: ✓ Compra realizada, cristales cobrados
+
+Momento 6: JUGADOR PRESIONA "CERRAR"
+─────────────────────────────────────
+
+Button → OnCloseButtonClicked()
+   ├─ Llama a CloseShop()
+   │
+   └─ ShopUI.CloseShop()
+       ├─ shopPanel.SetActive(false) ← Oculta el panel
+       ├─ GameManager.ResumeGame() ← Reanuda el juego
+       └─ ¡Tienda cerrada!
+
+Resultado: ✓ Tienda cerrada, vuelves al juego
+
+═════════════════════════════════════════════════════════════════════════════════
+
+ESTRUCTURA DE ARCHIVOS IMPORTANTE
+═══════════════════════════════════
+
+📁 Assets/
+  📁 Scripts/
+    📁 Managers/
+      📄 GameManager.cs ← Controla estado del juego
+      📄 ResourceManager.cs ← Controla recursos (cristales, etc)
+    📁 Systems/
+      📄 SlimeShopData.cs ← ⭐ DATOS DE LA TIENDA
+      📄 ShopTrigger.cs ← ⭐ DETECTA ENTRADA A TIENDA
+    📁 UI/
+      📄 ShopUI.cs ← ⭐ UI DE LA TIENDA
+  📁 Sprites/
+    📄 SlimeRosa.png
+    📄 SlimePlanta.png
+    📄 SlimeFuego.png
+    📄 SlimeToxico.png
+  📁 Prefabs/
+    📁 UI/
+      📄 SlimeButtonPrefab.prefab ← Template del botón
+  📁 Scenes/
+    📄 MainScene.unity
+    📄 Tienda.unity
+
+═════════════════════════════════════════════════════════════════════════════════
+
+DIAGRAMA DE CLASES
+═══════════════════
+
+╔═════════════════════════════════════════════════════════════════╗
+║                     SlimeShopData                              ║
+╠═════════════════════════════════════════════════════════════════╣
+║ - availableSlimes: SlimeShopItem[]                             ║
+║ - Instance: SlimeShopData (singleton)                          ║
+╠═════════════════════════════════════════════════════════════════╣
+║ + GetAvailableSlimes(): SlimeShopItem[]                        ║
+║ + GetSlimeByIndex(int): SlimeShopItem                          ║
+║ + CanBuySlime(int): bool                                       ║
+║ + BuySlime(int): bool                                          ║
+╚═════════════════════════════════════════════════════════════════╝
+
+╔═════════════════════════════════════════════════════════════════╗
+║                     SlimeShopItem                              ║
+╠═════════════════════════════════════════════════════════════════╣
+║ + slimeName: string                                            ║
+║ + slimeType: string                                            ║
+║ + price: int                                                   ║
+║ + slimeIcon: Sprite                                            ║
+║ + description: string                                          ║
+╚═════════════════════════════════════════════════════════════════╝
+
+╔═════════════════════════════════════════════════════════════════╗
+║                        ShopUI                                  ║
+╠═════════════════════════════════════════════════════════════════╣
+║ - shopPanel: GameObject                                        ║
+║ - slimeButtons: List<Button>                                   ║
+║ - currentSelectedSlime: SlimeShopItem                          ║
+║ - currentSelectedIndex: int                                    ║
+╠═════════════════════════════════════════════════════════════════╣
+║ + OpenShop(): void                                             ║
+║ + CloseShop(): void                                            ║
+║ - CreateSlimeButtons(): void                                   ║
+║ - OnSlimeButtonClicked(int): void                              ║
+║ - OnBuyButtonClicked(): void                                   ║
+║ - UpdateCrystalsDisplay(): void                                ║
+╚═════════════════════════════════════════════════════════════════╝
+
+╔═════════════════════════════════════════════════════════════════╗
+║                     ShopTrigger                                ║
+╠═════════════════════════════════════════════════════════════════╣
+║ - shopKey: KeyCode = T                                         ║
+║ - shopUI: ShopUI                                               ║
+║ - playerInShopZone: bool                                       ║
+╠═════════════════════════════════════════════════════════════════╣
+║ - OnTriggerEnter2D(Collider2D): void                           ║
+║ - OnTriggerExit2D(Collider2D): void                            ║
+║ - Update(): void                                               ║
+║ - OpenShop(): void                                             ║
+╚═════════════════════════════════════════════════════════════════╝
+
+═════════════════════════════════════════════════════════════════════════════════
+
+DIAGRAMA DE UI (JERARQUÍA)
+═════════════════════════════
+
+ShopCanvas
+├─ ShopPanel (Panel Principal)
+│  ├─ HeaderPanel (Parte superior)
+│  │  └─ TitleText ("TIENDA DE SLIMES")
+│  ├─ SlimesPanel (Scroll con botones de slimes)
+│  │  └─ Viewport
+│  │     └─ Content (SlimesContainer)
+│  │        ├─ SlimeButtonTemplate (x4)
+│  │        ├─ SlimeButtonTemplate
+│  │        ├─ SlimeButtonTemplate
+│  │        └─ SlimeButtonTemplate
+│  ├─ DetailsPanel (Panel de información)
+│  │  ├─ SlimeImage (Imagen del slime)
+│  │  ├─ SlimeNameText ("Nombre del Slime")
+│  │  ├─ PriceText ("Precio: XXX")
+│  │  ├─ DescriptionText ("Descripción...")
+│  │  ├─ BuyButton ("COMPRAR")
+│  │  └─ CrystalsText ("Cristales: XXX")
+│  └─ CloseButton ("CERRAR")
+
+═════════════════════════════════════════════════════════════════════════════════
+
+TIMELINE: SECUENCIA DE EVENTOS
+════════════════════════════════
+
+1. Inicio del juego
+   └─ GameManager, ResourceManager, ShopManager se crean
+
+2. Jugador entra a zona de tienda
+   └─ ShopTrigger detecta entrada
+
+3. Jugador presiona "T"
+   └─ ShopUI.OpenShop() se ejecuta
+   └─ Tienda se muestra
+
+4. Tienda está abierta
+   ├─ Jugador ve los 4 slimes
+   ├─ Puede hacer click para ver detalles
+   └─ Puede hacer click en "Comprar"
+
+5. Jugador compra un slime
+   ├─ SlimeShopData.BuySlime() se ejecuta
+   ├─ Cristales se restan
+   └─ Pantalla se actualiza
+
+6. Jugador presiona "Cerrar"
+   └─ ShopUI.CloseShop() se ejecuta
+   └─ Tienda se oculta
+   └─ Juego continúa
+
+═════════════════════════════════════════════════════════════════════════════════

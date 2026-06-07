@@ -1,0 +1,338 @@
+═════════════════════════════════════════════════════════════════════════════════
+              SOLUCIÓN DE PROBLEMAS: TIENDA DE SLIMES (FAQ)
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 1: "Presiono T pero no se abre la tienda"
+═════════════════════════════════════════════════════
+
+CAUSAS POSIBLES Y SOLUCIONES:
+
+1. El personaje no está en la zona de la tienda
+   ✓ SOLUCIÓN: Mueve tu personaje a la zona donde está ShopArea
+   ✓ Verifica que ShopArea tenga un collider visible en la escena
+
+2. El collider NO es Trigger
+   ✓ SOLUCIÓN: Selecciona ShopArea
+   ✓ En el Inspector, en BoxCollider2D, marca "Is Trigger" ✓
+
+3. El personaje NO tiene el tag "Player"
+   ✓ SOLUCIÓN: Selecciona tu personaje
+   ✓ En el Inspector, en la parte superior, abre el dropdown de "Tag"
+   ✓ Selecciona "Player" (si no existe, crea uno nuevo)
+
+4. ShopTrigger no está asignado correctamente
+   ✓ SOLUCIÓN: Selecciona ShopArea
+   ✓ Verifica que tenga el componente ShopTrigger
+   ✓ En ShopUI, verifica que esté asignado correctamente
+
+5. ShopUI no está en la escena
+   ✓ SOLUCIÓN: En MainScene, asegúrate de tener un Canvas con ShopUI
+
+   PASO A PASO:
+   1. Abre la escena Tienda.unity
+   2. Copia ShopCanvas
+   3. Abre MainScene
+   4. Pega ShopCanvas aquí
+   5. En ShopArea/ShopTrigger, asigna el ShopUI de MainScene
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 2: "Aparece un error: 'ShopUI is null' o similar"
+══════════════════════════════════════════════════════════════
+
+ESTE ERROR SIGNIFICA: No encontró el componente ShopUI
+
+SOLUCIÓN:
+
+1. Verifica que ShopUI está en ShopArea (ShopTrigger)
+   ✓ Selecciona ShopArea
+   ✓ En el Inspector, busca ShopTrigger
+   ✓ En el campo "Shop UI", debe haber una referencia
+
+2. Si está vacío, arrastra el ShopUI manualmente
+   ✓ Haz click en el círculo pequeño al lado de "Shop UI"
+   ✓ Busca "ShopUI" en la lista
+   ✓ O arrastra ShopCanvas desde la jerarquía
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 3: "El botón de compra no funciona / está gris"
+═════════════════════════════════════════════════════════════
+
+CAUSA: No tienes suficientes cristales
+
+SOLUCIONES:
+
+1. Agrega más cristales en el Inspector
+   ✓ Busca a ResourceManager en la escena
+   ✓ En el Inspector, encuentra "Cristales"
+   ✓ Cambia el valor a algo mayor (ejemplo: 5000)
+   ✓ Presiona PLAY
+
+2. Verifica que el botón esté habilitado
+   ✓ En la tienda, si el botón está ROJO, no tienes dinero
+   ✓ Si está VERDE, puedes comprar
+   ✓ El script automáticamente cambia el color
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 4: "No veo las imágenes de los slimes"
+═════════════════════════════════════════════════
+
+CAUSA: Las imágenes no están importadas correctamente
+
+SOLUCIÓN PASO A PASO:
+
+1. En tu carpeta Assets/Sprites/, verifica que tengas los 4 PNG
+
+2. Selecciona CADA imagen en el Project
+   ✓ SlimeRosa.png → click
+   ✓ En el Inspector, busca "Texture Type"
+   ✓ Cambia a "Sprite (2D and UI)"
+   ✓ Click "Apply"
+
+3. Repite lo anterior para las 4 imágenes
+
+4. En SlimeShopData, verifica que hayas asignado las imágenes
+   ✓ Selecciona ShopManager en la jerarquía
+   ✓ En el Inspector, en SlimeShopData
+   ✓ Para cada slime, verifica que el campo "Slime Icon" tenga imagen
+
+5. En ShopUI, cuando selecciones un slime, debería ver la imagen
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 5: "Los botones de los slimes no aparecen"
+══════════════════════════════════════════════════════
+
+CAUSAS:
+
+1. El prefab no está asignado a ShopUI
+   ✓ Selecciona ShopCanvas
+   ✓ En ShopUI, busca "Slime Button Prefab"
+   ✓ Verifica que haya un prefab asignado
+   ✓ Si está vacío, arrastra el prefab desde Prefabs/UI/
+
+2. El prefab no existe
+   ✓ Ve a Assets/Prefabs/UI/
+   ✓ Verifica que exista "SlimeButtonPrefab" o similar
+   ✓ Si no existe, créalo nuevamente:
+     - Click derecho en ShopCanvas → UI → Button
+     - Renombra a: SlimeButtonTemplate
+     - Configura como se indica en el checklist
+     - Arrastra a Assets/Prefabs/UI/ para crear el prefab
+     - Borra de la escena
+
+3. El contenedor (SlimesContainer) no está asignado
+   ✓ Selecciona ShopCanvas
+   ✓ En ShopUI, busca "Slime Buttons Container"
+   ✓ Verifica que esté asignado
+   ✓ Si está vacío, encuentra "SlimesPanel" en la jerarquía
+   ✓ Abre: SlimesPanel → Viewport → Content
+   ✓ Arrastra "Content" al campo
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 6: "El script ShopUI tiene errores / no compila"
+═════════════════════════════════════════════════════════════
+
+SOLUCIÓN:
+
+1. Abre la ventana "Console" (parte inferior de Unity)
+2. Lee el error (te dice exactamente qué está mal)
+3. Errores comunes:
+
+   ERROR: "CS0246: The type or namespace name 'SlimeShopData' could not be found"
+   SOLUCIÓN: Asegúrate que SlimeShopData.cs está en Assets/Scripts/Systems/
+
+   ERROR: "The name 'ResourceManager' does not exist"
+   SOLUCIÓN: Asegúrate que ResourceManager.cs existe en Assets/Scripts/Managers/
+
+   ERROR: "ShopUI.cs:XX: error CS1061: 'XX' does not contain a definition for 'XX'"
+   SOLUCIÓN: Probablemente un nombre mal escrito. Copia el nombre exacto de la clase
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 7: "El juego se pausa pero no vuelve a normal"
+═══════════════════════════════════════════════════════════
+
+CAUSA: El botón "CERRAR" no está funcionando
+
+SOLUCIÓN:
+
+1. Verifica que el botón está asignado a ShopUI
+   ✓ Selecciona ShopCanvas
+   ✓ En ShopUI, busca "Close Button"
+   ✓ Arrastra "CloseButton" desde la jerarquía
+
+2. Verifica que el botón tiene el componente Button
+   ✓ Selecciona CloseButton en la jerarquía
+   ✓ En el Inspector, debe tener el componente "Button"
+
+3. Prueba manualmente llamar la función
+   ✓ En el Inspector de CloseButton
+   ✓ En Button, busca "On Click ()"
+   ✓ Click en "+" para agregar evento
+   ✓ Arrastra ShopCanvas
+   ✓ Selecciona ShopUI → CloseShop()
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 8: "Cuando compro un slime, no aparece nada"
+════════════════════════════════════════════════════════
+
+ESTO ES NORMAL (por ahora).
+
+El sistema solo:
+✓ Te cobra los cristales
+✓ Resta del ResourceManager
+
+Pero no:
+✗ Agrega el slime a tu inventario (se implementaría después)
+✗ Aparece en el mundo (se implementaría después)
+
+Si quieres verificar que funciona:
+1. Abre la ventana Console (Debug)
+2. Presiona T y abre la tienda
+3. Compra un slime
+4. En la consola debería ver: "¡Compraste [nombre del slime]!"
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 9: "Los textos no se ven / están muy pequeños"
+═══════════════════════════════════════════════════════════
+
+SOLUCIÓN:
+
+1. Selecciona cada text en la jerarquía
+2. En el Inspector, busca "TextMeshPro - Text"
+3. Aumenta el valor en "Font Size"
+   ✓ Ejemplo: 24, 36, 48
+
+4. También puedes cambiar el color:
+   ✓ En "Color", cambia a blanco o el color que prefieras
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 10: "El layout se ve mal / los elementos están superpuestos"
+═════════════════════════════════════════════════════════════════════════
+
+SOLUCIÓN:
+
+Este es un problema de Rect Transform (posición y tamaño).
+
+1. Selecciona cada elemento
+2. En el Inspector, en "Rect Transform", ajusta:
+   ✓ Pos X, Pos Y (posición)
+   ✓ Width, Height (tamaño)
+
+3. Usa los valores del CHECKLIST como referencia
+
+4. O usa un Layout Group para que se acomoden automáticamente:
+   ✓ Selecciona el contenedor (ejemplo: DetailsPanel)
+   ✓ Add Component → Layout Group (Vertical o Horizontal)
+   ✓ Ajusta "Spacing" y "Padding"
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 11: "ResourceManager aparece varias veces / se duplica"
+═════════════════════════════════════════════════════════════════════
+
+CAUSA: No agregaste DontDestroyOnLoad()
+
+SOLUCIÓN:
+
+1. Abre ResourceManager.cs
+2. En la función Awake(), al final agrega:
+   ```
+   DontDestroyOnLoad(gameObject);
+   ```
+
+3. Haz lo mismo en GameManager.cs
+
+4. Guarda los archivos
+
+5. Ahora solo habrá una instancia en ambas escenas
+
+═════════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA 12: "Error: 'OnTriggerEnter2D' is never called"
+═════════════════════════════════════════════════════════════
+
+CAUSA: El collider del personaje no está interaccionando
+
+SOLUCIÓN:
+
+1. Verifica que ShopArea tenga un Collider2D
+   ✓ Selecciona ShopArea
+   ✓ Debe tener BoxCollider2D
+   ✓ Marca "Is Trigger" ✓
+
+2. Verifica que el personaje tiene un Collider2D
+   ✓ Selecciona el personaje
+   ✓ Debe tener un Collider (puede ser BoxCollider2D, CircleCollider2D, etc)
+   ✓ NO debe marcar "Is Trigger"
+
+3. Ambos deben tener Rigidbody2D
+   ✓ ShopArea: Rigidbody2D con Body Type = Dynamic, Gravity Scale = 0
+   ✓ Personaje: Rigidbody2D (normal)
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📊 TABLA DE VERIFICACIÓN RÁPIDA
+════════════════════════════════
+
+VERIFICA ESTO SI ALGO NO FUNCIONA:
+
+[ ] SlimeShopData.cs existe en Assets/Scripts/Systems/
+[ ] ShopUI.cs existe en Assets/Scripts/UI/
+[ ] ShopTrigger.cs existe en Assets/Scripts/Systems/
+[ ] Las 4 imágenes PNG están en Assets/Sprites/
+[ ] Las imágenes tienen Texture Type = Sprite (2D and UI)
+[ ] El prefab existe en Assets/Prefabs/UI/
+[ ] El personaje tiene tag "Player"
+[ ] ShopArea tiene BoxCollider2D con Is Trigger = true
+[ ] ShopArea tiene Rigidbody2D
+[ ] ShopArea tiene ShopTrigger.cs
+[ ] MainScene tiene ShopCanvas con ShopUI.cs
+[ ] SlimeShopData está asignado en ShopUI
+[ ] Los 4 slimes están configurados en SlimeShopData
+[ ] Las imágenes están asignadas en SlimeShopData
+[ ] El prefab está asignado en ShopUI
+[ ] SlimesContainer está asignado en ShopUI
+[ ] Todos los UI elements están asignados en ShopUI
+[ ] CloseButton está asignado en ShopUI
+[ ] ResourceManager tiene DontDestroyOnLoad()
+[ ] GameManager tiene DontDestroyOnLoad()
+
+═════════════════════════════════════════════════════════════════════════════════
+
+🎯 PRÓXIMOS PASOS (DESPUÉS DE QUE LA TIENDA FUNCIONE)
+══════════════════════════════════════════════════════
+
+CUANDO YA TENGAS LA TIENDA FUNCIONANDO, PUEDES AGREGAR:
+
+1. Inventario de slimes comprados
+   - Mantener registro de qué slimes tienes
+   - Mostrarlos en una pantalla
+
+2. Efectos de sonido
+   - Sonido al abrir tienda
+   - Sonido al comprar
+   - Sonido al cerrar
+
+3. Animaciones
+   - Slimes saltando
+   - Panel deslizándose
+   - Botones con animación
+
+4. Más tipos de slimes
+   - Agregar más al sistema
+   - Crear sprites nuevos
+   - Dar diferentes precios
+
+5. Sistema de misiones
+   - Comprar slimes específicos
+   - Completar misiones para obtener cristales
+
+═════════════════════════════════════════════════════════════════════════════════

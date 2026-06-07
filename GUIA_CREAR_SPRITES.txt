@@ -1,0 +1,236 @@
+═════════════════════════════════════════════════════════════════════════════════
+                     GUÍA: CÓMO CREAR LOS SPRITES DE SLIMES
+═════════════════════════════════════════════════════════════════════════════════
+
+¿QUÉ SON LOS SPRITES?
+═════════════════════
+
+Los sprites son imágenes 2D que usas en tu juego.
+Para la tienda necesitas 4 imágenes (una por cada slime).
+
+TAMAÑO RECOMENDADO
+═══════════════════
+
+Cada sprite debe medir:
+  • Ancho: 200 píxeles
+  • Alto: 200 píxeles
+  • Formato: PNG (para que tengan transparencia)
+
+OPCIÓN 1: USAR IA PARA GENERAR LAS IMÁGENES
+═════════════════════════════════════════════
+
+Puedes usar:
+  • ChatGPT con DALL-E
+  • Midjourney
+  • Stable Diffusion
+  • Leonardo.ai
+
+PROMPT (lo que escribes) EJEMPLO:
+─────────────────────────────────
+
+"Generate a cute 2D pixel art slime character for a game. 
+The slime is pink/rosa colored, round, with big cute eyes. 
+It should have a transparent background. 
+200x200 pixels. PNG format."
+
+TRADUCCIÓN:
+───────────
+"Genera un personaje slime pixel art 2D lindo para un juego.
+El slime es de color rosa, redondo, con ojos grandes y lindos.
+Debe tener fondo transparente.
+200x200 píxeles. Formato PNG."
+
+REPITE ESTO PARA CADA SLIME:
+────────────────────────────
+
+SLIME ROSA:
+  "A cute pink slime with big eyes, pixel art, 200x200, PNG, 
+   transparent background"
+
+SLIME PLANTA:
+  "A green plant slime with leaves, pixel art, 200x200, PNG, 
+   transparent background"
+
+SLIME FUEGO:
+  "An orange-red fire slime with flames, pixel art, 200x200, PNG, 
+   transparent background"
+
+SLIME TOXICO:
+  "A purple-green toxic slime with poison effects, pixel art, 200x200, PNG, 
+   transparent background"
+
+═════════════════════════════════════════════════════════════════════════════════
+
+OPCIÓN 2: CREAR LAS IMÁGENES TÚ MISMO
+═════════════════════════════════════
+
+HERRAMIENTA 1: ASEPRITE (La mejor, pero de pago)
+────────────────────────────────────────────────
+1. Descarga Aseprite: https://www.aseprite.org/
+2. Crea un proyecto 200x200
+3. Dibuja tu slime
+4. Export como PNG
+
+HERRAMIENTA 2: PIXILART (Gratis, online)
+──────────────────────────────────────────
+1. Ve a: https://www.pixilart.com/
+2. Click "Create"
+3. Tamaño: 200x200
+4. Dibuja tu slime
+5. Download como PNG
+
+HERRAMIENTA 3: GIMP (Gratis, poderoso)
+────────────────────────────────────────
+1. Descarga: https://www.gimp.org/
+2. File → New → 200x200
+3. Dibuja tu slime
+4. Export as PNG
+
+HERRAMIENTA 4: KRITA (Gratis, muy bueno)
+──────────────────────────────────────────
+1. Descarga: https://krita.org/
+2. File → New → 200x200
+3. Dibuja tu slime
+4. Export as PNG
+
+═════════════════════════════════════════════════════════════════════════════════
+
+CÓMO DIBUJAR UN SLIME SIMPLE (Tutorial rápido)
+═════════════════════════════════════════════
+
+SLIME ROSA:
+───────────
+
+Paso 1: Forma básica
+  Dibuja un círculo rosado (como una pelota)
+  
+Paso 2: Movimiento
+  Haz que parezca que está saltando (debajo más ancho que arriba)
+  
+Paso 3: Ojos
+  Dibuja dos puntos negros grandes
+  
+Paso 4: Brillo
+  Agrega un pequeño triángulo blanco en la esquina (efecto de brillo)
+
+Paso 5: Bordes
+  Agrega una línea oscura alrededor (contorno)
+
+RESULTADO:
+  Una forma de gota rosa con ojos grandes y una sonrisa
+
+SLIME PLANTA:
+─────────────
+
+Lo mismo que el slime rosa, pero:
+  • Color: Verde
+  • Agrega hojas pequeñas en la parte superior
+  • Dibuja flores pequeñas (opcional)
+
+SLIME FUEGO:
+────────────
+
+Lo mismo que el slime rosa, pero:
+  • Color: Naranja/Rojo
+  • En lugar de ser liso, tiene forma de llamas
+  • Agrega líneas amarillas dentro (efecto fuego)
+  • Los bordes pueden ser más dentados
+
+SLIME TOXICO:
+──────────────
+
+Lo mismo que el slime rosa, pero:
+  • Color: Morado oscuro o verde oscuro
+  • Agrega pequeños círculos verdes alrededor (burbujas de veneno)
+  • Puede tener una expresión más seria/maligna
+  • Agrega detalles de "ácido" alrededor
+
+═════════════════════════════════════════════════════════════════════════════════
+
+OPCIÓN 3: DESCARGAR SPRITES DE INTERNET
+═════════════════════════════════════════
+
+Sitios donde encuentras sprites gratis:
+
+1. OpenGameArt.org
+   Busca: "slime sprite pixel art"
+   Licencia: Usualmente libre de usar
+
+2. Itch.io
+   Busca: "slime pixel art free"
+   Filtra por: Free
+
+3. Reddit r/PixelArt
+   Pide ayuda a la comunidad
+
+4. Twitter
+   Busca: "#pixelart #slime"
+
+IMPORTANTE: Siempre verifica la licencia antes de usar
+
+═════════════════════════════════════════════════════════════════════════════════
+
+PASOS FINALES: CÓMO IMPORTAR LOS SPRITES A UNITY
+═════════════════════════════════════════════════
+
+1. Guarda tus 4 imágenes PNG como:
+   • SlimeRosa.png
+   • SlimePlanta.png
+   • SlimeFuego.png
+   • SlimeToxico.png
+
+2. En tu carpeta del proyecto, ve a: Assets → Sprites
+
+3. Copia y pega las 4 imágenes aquí
+   (O arrastra y suelta desde tu carpeta de descargas)
+
+4. En Unity, verás que aparecen en la carpeta Sprites
+
+5. Selecciona CADA imagen y en el Inspector:
+   • Texture Type: Sprite (2D and UI)
+   • Sprite Mode: Single
+   • Click "Apply"
+
+6. ¡Listo! Ya puedes usarlas en la tienda
+
+═════════════════════════════════════════════════════════════════════════════════
+
+CONSEJOS PARA QUE LOS SPRITES SE VEAN BIEN
+═════════════════════════════════════════════
+
+✓ Usa colores VIVOS (rosa, verde, naranja, morado)
+✓ Dibuja OJOS grandes y expresivos
+✓ Haz los slimes REDONDOS y suaves
+✓ Agrega un CONTORNO (línea oscura alrededor)
+✓ Usa SOMBRAS para dar profundidad
+✓ Agrega BRILLOS (puntos blancos)
+✓ Crea un patrón único para cada slime
+
+═════════════════════════════════════════════════════════════════════════════════
+
+EJEMPLO DE DESCRIPCIÓN DE CADA SLIME
+═════════════════════════════════════
+
+Para que sepas qué vender:
+
+🌸 SLIME ROSA
+   Precio: 300 cristales
+   Descripción: "Un adorable slime rosa que rebota feliz"
+   Efecto: Normal (sin efectos especiales)
+
+🌿 SLIME PLANTA
+   Precio: 250 cristales
+   Descripción: "Un slime verde con vida propia"
+   Efecto: Produce biomasa
+
+🔥 SLIME FUEGO
+   Precio: 400 cristales
+   Descripción: "¡Un peligroso slime lleno de energía!"
+   Efecto: Muy rápido, pero caro
+
+💜 SLIME TOXICO
+   Precio: 350 cristales
+   Descripción: "Venenoso pero fascinante"
+   Efecto: Especial y raro
+
+═════════════════════════════════════════════════════════════════════════════════

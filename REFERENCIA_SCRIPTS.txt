@@ -1,0 +1,239 @@
+═════════════════════════════════════════════════════════════════════════════════
+                      REFERENCIA RÁPIDA DE LOS SCRIPTS
+═════════════════════════════════════════════════════════════════════════════════
+
+📄 SLIMESHOPDATA.CS
+═══════════════════
+
+¿QUÉ HACE?
+──────────
+Guarda los datos de todos los slimes que se venden en la tienda.
+Es como tener una lista de precios de una tienda real.
+
+¿CÓMO FUNCIONA?
+───────────────
+
+Clase SlimeShopItem:
+  ├─ slimeName: "Slime Rosa"        ← El nombre que ve el jugador
+  ├─ slimeType: "Rosa"               ← El tipo del slime
+  ├─ price: 300                      ← Cuántos cristales cuesta
+  ├─ slimeIcon: [IMAGEN]             ← La imagen que se muestra
+  └─ description: "Un slime rosa..."  ← Descripción pequeña
+
+Funciones principales:
+
+✓ GetAvailableSlimes() 
+  Retorna: Array de todos los slimes disponibles
+  Uso: ShopUI.cs lo usa para crear los botones
+
+✓ CanBuySlime(int index)
+  Retorna: true/false (si tienes dinero para comprar)
+  Uso: Para habilitar/deshabilitar el botón de compra
+
+✓ BuySlime(int index)
+  Hace: Te cobra los cristales y retorna true si fue exitoso
+  Uso: Se ejecuta cuando haces click en "COMPRAR"
+
+EJEMPLO DE CÓDIGO:
+──────────────────
+
+// Obtener un slime específico
+SlimeShopItem item = SlimeShopData.Instance.GetSlimeByIndex(0); // Primer slime
+
+// Verificar si puedes comprar
+if (SlimeShopData.Instance.CanBuySlime(0))
+{
+    Debug.Log("¡Tienes dinero!");
+}
+
+// Comprar un slime
+if (SlimeShopData.Instance.BuySlime(0))
+{
+    Debug.Log("¡Compraste el Slime Rosa!");
+}
+else
+{
+    Debug.Log("¡No tienes suficientes cristales!");
+}
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📄 SHOPUI.CS
+═════════════
+
+¿QUÉ HACE?
+──────────
+Controla TODO lo que ves en la pantalla de la tienda.
+Es como el vendedor que te muestra los productos.
+
+¿CÓMO FUNCIONA?
+───────────────
+
+Función: CreateSlimeButtons()
+─────────────────────────────
+1. Obtiene la lista de slimes de SlimeShopData
+2. Para cada slime:
+   ├─ Crea un botón
+   ├─ Le pone la imagen
+   ├─ Le pone el nombre
+   └─ Le agrega un listener (que ejecuta OnSlimeButtonClicked)
+
+Función: OnSlimeButtonClicked(int slimeIndex)
+──────────────────────────────────────────────
+Cuando haces CLICK en un slime:
+1. Obtiene la información del slime
+2. Actualiza la imagen mostrada
+3. Actualiza el nombre, precio y descripción
+4. Cambia el color del botón (para indicar que está seleccionado)
+5. Actualiza si el botón de compra está habilitado
+
+Función: OnBuyButtonClicked()
+─────────────────────────────
+Cuando haces CLICK en "COMPRAR":
+1. Verifica si tienes suficientes cristales
+2. Llama a SlimeShopData.BuySlime()
+3. Si es exitoso:
+   ├─ Muestra un mensaje de éxito
+   └─ Actualiza la pantalla
+
+Función: OpenShop()
+───────────────────
+Cuando presionas "T" en la tienda:
+1. Muestra el panel de la tienda
+2. Pausa el juego (Time.timeScale = 0)
+3. Actualiza la cantidad de cristales
+
+Función: CloseShop()
+────────────────────
+Cuando presionas "CERRAR":
+1. Oculta el panel de la tienda
+2. Reanuda el juego (Time.timeScale = 1)
+
+EJEMPLO VISUAL DEL FLUJO:
+─────────────────────────
+
+┌──────────────────────────────┐
+│ El jugador presiona "T"       │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ ShopTrigger.Update() detecta │
+│ que está en la zona y presionó T
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ ShopUI.OpenShop() se ejecuta │
+│ Panel se muestra             │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ Ves los 4 slimes con botones │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ Haces click en "Slime Rosa"  │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ ShopUI.OnSlimeButtonClicked()│
+│ Se muestra info del slime    │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ Haces click en "COMPRAR"     │
+└──────────────────────────────┘
+           ↓
+┌──────────────────────────────┐
+│ ShopUI.OnBuyButtonClicked()  │
+│ Se cobran 300 cristales      │
+│ ¡Compraste el slime!         │
+└──────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════════
+
+📄 SHOPTRIGGER.CS
+═════════════════
+
+¿QUÉ HACE?
+──────────
+Detecta cuando el jugador:
+1. Entra a la zona de la tienda
+2. Presiona la tecla "T"
+3. Sale de la tienda
+
+¿CÓMO FUNCIONA?
+───────────────
+
+Función: OnTriggerEnter2D(Collider2D collision)
+────────────────────────────────────────────────
+Cuando algo entra en el área del collider:
+1. Verifica si es el jugador (CompareTag("Player"))
+2. Si es el jugador:
+   ├─ playerInShopZone = true
+   └─ Muestra mensajeJe: "¡Entraste a la zona de la tienda! Presiona T para abrir"
+
+Función: OnTriggerExit2D(Collider2D collision)
+───────────────────────────────────────────────
+Cuando el jugador SALE:
+1. playerInShopZone = false
+2. Muestra mensaje: "Saliste de la zona de la tienda"
+
+Función: Update()
+──────────────────
+En cada frame (60 veces por segundo):
+1. Verifica si playerInShopZone == true
+2. Verifica si Input.GetKeyDown(shopKey) == true (presionaron "T")
+3. Si ambas son true:
+   └─ Ejecuta OpenShop()
+
+CÓMO CONFIGURAR:
+─────────────────
+
+En el INSPECTOR:
+├─ Shop Key: T (por defecto)
+├─ Shop UI: [Arrastra el ShopUI aquí]
+└─ [El collider ya debe estar en el mismo GameObject]
+
+═════════════════════════════════════════════════════════════════════════════════
+
+INTERACCIÓN ENTRE SCRIPTS
+═══════════════════════════
+
+                    ┌─────────────────┐
+                    │  Jugador        │
+                    │  (El personaje) │
+                    └─────────────────┘
+                            ↓ (presiona T)
+                    ┌─────────────────┐
+                    │  ShopTrigger.cs │
+                    │ (Detecta la T)  │
+                    └─────────────────┘
+                            ↓
+            ┌───────────────────────────────┐
+            │  ShopUI.OpenShop()            │
+            │ (Abre el panel)               │
+            └───────────────────────────────┘
+                    ↓ (Usuario ve los slimes)
+        ┌─────────────────────────────┐
+        │ ShopUI muestra:             │
+        │ ├─ 4 botones (slimes)       │
+        │ ├─ Información del slime    │
+        │ └─ Botones: Comprar, Cerrar │
+        └─────────────────────────────┘
+                ↓ (Usuario hace click)
+    ┌───────────────────────────────┐
+    │ ShopUI.OnBuyButtonClicked()   │
+    └───────────────────────────────┘
+            ↓
+    ┌────────────────────────────────┐
+    │ SlimeShopData.BuySlime()       │
+    │ ├─ Verifica cristales          │
+    │ ├─ Cobra al ResourceManager    │
+    │ └─ Retorna true/false          │
+    └────────────────────────────────┘
+            ↓
+    ┌────────────────────────────────┐
+    │ ¡Compra exitosa o fallida!     │
+    └────────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════════

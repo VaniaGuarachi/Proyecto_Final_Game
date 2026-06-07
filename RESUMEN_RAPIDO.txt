@@ -1,0 +1,175 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    TIENDA DE SLIMES - RESUMEN RÁPIDO                      ║
+║                       (Cheat Sheet de 5 minutos)                          ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+QUÉ HICIMOS:
+════════════
+
+✓ Creamos 3 scripts de C# (ya están hechos):
+  1. SlimeShopData.cs (datos de slimes)
+  2. ShopUI.cs (pantalla de tienda)
+  3. ShopTrigger.cs (detecta tecla T)
+
+✓ Creamos 6 documentos de guía (en la carpeta raíz)
+
+═════════════════════════════════════════════════════════════════════════════
+
+TAREAS QUE DEBES HACER EN UNITY:
+═════════════════════════════════
+
+TAREA 1: En MainScene, crea la zona de tienda (5 min)
+┌─────────────────────────────────────────────────────┐
+│ 1. Create Empty → Renombra: "ShopArea"              │
+│ 2. Add Component → BoxCollider2D                    │
+│ 3. Marca "Is Trigger" ✓                             │
+│ 4. Add Component → ShopTrigger                      │
+│ 5. Ajusta el collider al tamaño de tu tienda        │
+└─────────────────────────────────────────────────────┘
+
+TAREA 2: Copia el Canvas de Tienda.unity a MainScene (2 min)
+┌─────────────────────────────────────────────────────┐
+│ 1. Abre Tienda.unity                                │
+│ 2. Selecciona ShopCanvas                            │
+│ 3. Ctrl+C (copiar)                                  │
+│ 4. Abre MainScene                                   │
+│ 5. Ctrl+V (pegar)                                   │
+│ 6. En ShopArea/ShopTrigger → Asigna el ShopUI       │
+└─────────────────────────────────────────────────────┘
+
+TAREA 3: Configura los datos de los slimes (3 min)
+┌─────────────────────────────────────────────────────┐
+│ 1. En Tienda.unity (o MainScene):                   │
+│ 2. Create Empty → Renombra: "ShopManager"           │
+│ 3. Add Component → SlimeShopData                    │
+│ 4. Size: 4                                          │
+│ 5. Rellena cada slime:                              │
+│    - Slime Rosa (precio 300)                        │
+│    - Slime Planta (precio 250)                      │
+│    - Slime Fuego (precio 400)                       │
+│    - Slime Toxico (precio 350)                      │
+└─────────────────────────────────────────────────────┘
+
+TAREA 4: Crea los sprites (variable)
+┌─────────────────────────────────────────────────────┐
+│ OPCIÓN A: Descarga del internet                     │
+│   Busca en OpenGameArt.org o Itch.io                │
+│                                                     │
+│ OPCIÓN B: Genera con IA                             │
+│   Usa ChatGPT + DALL-E, Midjourney, etc             │
+│                                                     │
+│ OPCIÓN C: Crea tú mismo                             │
+│   Aseprite, GIMP, Pixilart.com, etc                 │
+│                                                     │
+│ Guarda como:                                        │
+│   SlimeRosa.png, SlimePlanta.png, etc               │
+│   En: Assets/Sprites/                               │
+└─────────────────────────────────────────────────────┘
+
+TAREA 5: Importa los sprites en Unity (2 min)
+┌─────────────────────────────────────────────────────┐
+│ 1. Copia los 4 PNG a Assets/Sprites/                │
+│ 2. Para CADA imagen:                                │
+│    ✓ Selecciona en Project                          │
+│    ✓ Texture Type → Sprite (2D and UI)              │
+│    ✓ Click "Apply"                                  │
+│ 3. En SlimeShopData, asigna cada imagen             │
+└─────────────────────────────────────────────────────┘
+
+═════════════════════════════════════════════════════════════════════════════
+
+RESULTADO FINAL:
+════════════════
+
+Cuando termines, tendrás:
+
+✓ Una tienda funcionando
+✓ Presiona "T" en la zona de tienda → Se abre
+✓ Ves los 4 slimes con sus precios
+✓ Haces click para ver detalles
+✓ Compras con cristales
+✓ El juego se pausa mientras la tienda está abierta
+
+═════════════════════════════════════════════════════════════════════════════
+
+REFERENCIAS DE ARCHIVOS:
+════════════════════════
+
+📄 Scripts (ya creados, NO TOQUES):
+   Assets/Scripts/Systems/SlimeShopData.cs
+   Assets/Scripts/Systems/ShopTrigger.cs
+   Assets/Scripts/UI/ShopUI.cs
+
+📄 Guías (LEE ESTOS PRIMERO):
+   GUIA_TIENDA_SLIMES.txt ← EMPIEZA AQUÍ
+   CHECKLIST_TIENDA.txt ← Sigue esto paso a paso
+   MAPA_MENTAL_TIENDA.txt ← Para entender la arquitectura
+   SOLUCION_PROBLEMAS.txt ← Si algo falla
+
+📄 Otros:
+   REFERENCIA_SCRIPTS.txt ← Qué hace cada script
+   GUIA_CREAR_SPRITES.txt ← Cómo crear las imágenes
+
+═════════════════════════════════════════════════════════════════════════════
+
+PARÁMETROS DE LOS SLIMES (para copiar):
+════════════════════════════════════════
+
+SLIME ROSA:
+  Nombre: "Slime Rosa"
+  Tipo: "Rosa"
+  Precio: 300
+  Descripción: "Un adorable slime rosa que rebota feliz"
+
+SLIME PLANTA:
+  Nombre: "Slime Planta"
+  Tipo: "Planta"
+  Precio: 250
+  Descripción: "Un slime verde con hojas, de naturaleza"
+
+SLIME FUEGO:
+  Nombre: "Slime Fuego"
+  Tipo: "Fuego"
+  Precio: 400
+  Descripción: "Un peligroso slime lleno de energía y fuego"
+
+SLIME TOXICO:
+  Nombre: "Slime Toxico"
+  Tipo: "Toxico"
+  Precio: 350
+  Descripción: "Un slime venenoso y fascinante"
+
+═════════════════════════════════════════════════════════════════════════════
+
+CHECKLIST FINAL (antes de presionar PLAY):
+═════════════════════════════════════════════
+
+❑ SlimeShopData.cs existe en Assets/Scripts/Systems/
+❑ ShopUI.cs existe en Assets/Scripts/UI/
+❑ ShopTrigger.cs existe en Assets/Scripts/Systems/
+❑ Las 4 imágenes PNG están en Assets/Sprites/
+❑ Las imágenes tienen Texture Type = Sprite (2D and UI)
+❑ El personaje tiene tag "Player"
+❑ ShopArea tiene BoxCollider2D con Is Trigger = true
+❑ ShopArea tiene ShopTrigger.cs asignado
+❑ MainScene tiene ShopCanvas con ShopUI
+❑ Los 4 slimes están configurados en SlimeShopData
+❑ Las imágenes están asignadas en SlimeShopData
+❑ ShopUI tiene todas las referencias asignadas
+❑ CloseButton está asignado a ShopUI
+❑ Puedo presionar T → Se abre la tienda
+
+═════════════════════════════════════════════════════════════════════════════
+
+¿LISTO? PRESIONA PLAY Y PRUEBA LA TIENDA 🎮
+═════════════════════════════════════════════
+
+1. Presiona PLAY
+2. Mueve tu personaje a la zona de tienda
+3. Presiona "T"
+4. ¡La tienda debería abrirse!
+5. Compra algunos slimes
+6. Presiona CERRAR
+7. El juego continúa
+
+═════════════════════════════════════════════════════════════════════════════
