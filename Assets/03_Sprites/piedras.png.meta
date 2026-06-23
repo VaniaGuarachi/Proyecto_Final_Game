@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: d53e077da512cf24abbb3a91ae09417f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2099454076993707005
+    second: piedras_0
+  - first:
+      213: -2006833340330160411
+    second: piedras_1
+  - first:
+      213: -8089053849419193825
+    second: piedras_2
+  - first:
+      213: -6053561207188816660
+    second: piedras_3
+  - first:
+      213: 5436107417651970017
+    second: piedras_4
+  - first:
+      213: 5181754018568303461
+    second: piedras_5
+  - first:
+      213: 7684139018700305640
+    second: piedras_6
+  - first:
+      213: -4559282582736636556
+    second: piedras_7
+  - first:
+      213: 1234506357189313471
+    second: piedras_8
+  - first:
+      213: -7589701491634615178
+    second: piedras_9
+  - first:
+      213: 7105148648266829489
+    second: piedras_10
+  - first:
+      213: -7230294675943585738
+    second: piedras_11
+  - first:
+      213: 1084774913603013926
+    second: piedras_12
+  - first:
+      213: 1984363285830393516
+    second: piedras_13
+  - first:
+      213: -5734502554937920548
+    second: piedras_14
+  - first:
+      213: 5847696689239298193
+    second: piedras_15
+  - first:
+      213: 2339374799188023456
+    second: piedras_16
+  - first:
+      213: 6127633126401832681
+    second: piedras_17
+  - first:
+      213: 7542869016670214175
+    second: piedras_18
+  - first:
+      213: 610794439588533684
+    second: piedras_19
+  - first:
+      213: 6993972305824467456
+    second: piedras_20
+  - first:
+      213: 7725578841408717174
+    second: piedras_21
+  - first:
+      213: 1162345468251303379
+    second: piedras_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: piedras1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 301
+        width: 403
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb94711c52c22d10800000000000000
+      internalID: 2099454076993707005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tierra
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 510
+        width: 242
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb30b3dbdf8d12110800000000000000
+      internalID: 1234506357189313471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piedraOro
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 314
+        width: 229
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ccddf84b6fba690800000000000000
+      internalID: -7589701491634615178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piedraPlata
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 320
+        width: 231
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6380cfacc45d8ab90800000000000000
+      internalID: -7230294675943585738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e60c713cb02825845bf6442f8ec69614
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      piedraOro: -7589701491634615178
+      piedraPlata: -7230294675943585738
+      piedras1: 2099454076993707005
+      piedras_1: -2006833340330160411
+      piedras_10: 7105148648266829489
+      piedras_12: 1084774913603013926
+      piedras_13: 1984363285830393516
+      piedras_14: -5734502554937920548
+      piedras_15: 5847696689239298193
+      piedras_16: 2339374799188023456
+      piedras_17: 6127633126401832681
+      piedras_18: 7542869016670214175
+      piedras_19: 610794439588533684
+      piedras_2: -8089053849419193825
+      piedras_20: 6993972305824467456
+      piedras_21: 7725578841408717174
+      piedras_22: 1162345468251303379
+      piedras_3: -6053561207188816660
+      piedras_4: 5436107417651970017
+      piedras_5: 5181754018568303461
+      piedras_6: 7684139018700305640
+      piedras_7: -4559282582736636556
+      tierra: 1234506357189313471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
